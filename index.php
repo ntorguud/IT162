@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Portal HTML page</title>
+    <meta charset="UTF-8">
+    <title>My ContactForm HTML page</title>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css">
+    <link href="css/forms.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/jquery.blueberry.js"></script>
 
+    <script>
+        $(window).load(function() {
+            $('.blueberry').blueberry();
+        });
+    </script>
 </head>
+
 
 <body>
 
@@ -12,26 +22,14 @@
 
 <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
 
-<link rel="stylesheet" type="text/css" href="css/blueberry.css">
-
-<link href="css/styles.css" type="text/css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="js/jquery.blueberry.js"></script>
-
-<script>
-$(window).load(function() {
-	$('.blueberry').blueberry();
-});
-</script>
-
 <nav>
   <ul>
-    <li><a href="index.html">Welcome</a></li>
-    <li><a href="big.html">Big</a></li>
-    <li><a href="aia.html">AIA</a></li>
-    <li><a href="flowchart.html">Flowchart</a></li>
-    <li><a href="finalproject.html">Final Project</a></li>
-    <li><a href="contactme.html">Contact Naran</a></li>
+    <li><a href="index.php">Welcome</a></li>
+    <li><a href="big.php">Big</a></li>
+    <li><a href="aia.php">AIA</a></li>
+    <li><a href="flowchart.php">Flowchart</a></li>
+    <li><a href="finalproject.php">Final Project</a></li>
+    <li><a href="contactme.php">Contact Naran</a></li>
   </ul>
 </nav>
 
@@ -48,7 +46,7 @@ $(window).load(function() {
 
   <footer>
     <ul>
-      <li>&copy; 2021-<?=date('Y')?>
+      <li>&copy; <?php echo date('Y');?>
       <li>by <a href="http://central.mystudentswa.com/naranto/web110/">Naran Torguud</a></li>
       <li>All Rights Reserved</li>
       <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html5.png" alt="html5"></a></li>
