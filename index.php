@@ -34,8 +34,13 @@
 </nav>
 
 <h2>Welcome</h2>
-
-<img src="images/naran.png" alt="image" width="150">
+<div class="blueberry">
+  <div class="slides">
+  <li>
+   <img src="images/naran.png" alt="image" width="150">
+  </li>
+  </div>
+</div>
 
   <p>I am Naran Torguud. I was born and grew up in Mongolia. Since I was in a middle school, I have wondered how people discovered those scientific inventions, such as coding. However, I completed a bachelor's degree in Textile Design in my country, I have never forgotten my dream which is learning code. After I graduated, I started to work at Mongolia's leading Cashmere Fashion company called "Gobi Cashmere" for 5 years.
   </p>
