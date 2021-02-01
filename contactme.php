@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>My ContactForm HTML page</title>
-    <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-    <link href="css/forms.css" type="text/css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script src="js/jquery.blueberry.js"></script>
+    <meta charset="utf-8" />
+    <title>nmCAPTCHA 2 Test Page</title>
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet"type="text/css"href="css/blueberry.css"><link href="css/forms.css"type="text/css"rel="stylesheet">
 
-    <script>
-        $(window).load(function() {
-            $('.blueberry').blueberry();
-        });
-    </script>
+    <!--[if ltIE9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
 </head>
 
 <body>
@@ -151,26 +148,49 @@
                     <p>* Be prepared to fill out your health related information thoroughly.</p>
                     <p>* Be ready 15 minutes before your appointment time.</p>
                     <br>
-
-                    <input type="submit" value="Submit">
-
-                    <label>Comments</label>
-                    <textarea name="comments"></textarea>
                 </fieldset>
             </form>
         </main>
 
     </div>
+    <header>
+        <h3>Contact Us!</h3>
+    </header>
+    <!-- <p>Inside the source of this file, you can un-comment and test
+        2 different types of forms:
+        <div class="indent">
+            <ul>
+                <li><b>loadContact('simple.php');</b> - a simple contact form with reCAPTCHA</li>
+                <li><b>loadContact('multiple.php');</b> - a complex form with reCAPTCHA</li>
+            </ul>
+        </div>
+    </p> -->
+    <?php
+    /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
 
+    include 'includes/contact_include.php'; #site keys & code here
+
+    $toAddress = "jenny.oyuka@gmail.com";  //place your/your client's email address here
+    $toName = "Enkhzul Jargalsaikhan"; //place your client's name here
+    $website = "MichidDent.mn";  //place NAME of your client's website
+
+    echo loadContact('simple.php');#demonstrates a simple contact form
+    //echo loadContact('multiple.php');#demonstrates multiple form elements
+
+    ?>
+    </main>
     <footer>
-        <ul>
-            <li>&copy; 2021-<?= date('Y') ?>
-            <li>by <a href="http://central.mystudentswa.com/naranto/web110/">Naran Torguud</a></li>
-            <li>All Rights Reserved</li>
-            <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html5.png" alt="html5"></a></li>
-            <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">Valid CSS</a></li>
-        </ul>
+        <small>&copy; 2013-<?= date('Y') ?>, All Rights Reserved ~
+            <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
+            <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+        </small>
     </footer>
+    <!-- END Footer -->
 </body>
 
 </html>

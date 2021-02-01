@@ -1,3 +1,5 @@
+
+        
 /* styles for my form */
 * {
     padding:0;
@@ -184,8 +186,9 @@ footer img {
     margin-right:0;
     /* height:400px; */
 }
+/* end form style */
 
-/* start reCAPTCHA styles */
+    /* start reCAPTCHA styles */
 		
 		/* writes to small text above reCAPTCHA upon failure */
 		.dateFeedback{
