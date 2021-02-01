@@ -34,13 +34,11 @@
 
 <h2>Welcome</h2>
 <div class="blueberry">
-  <div class="slides">
-  <li>
-   <img src="images/naran.png" alt="image" width="250">
-   <img src="images/naran1.png" alt="images" width="250">
-   <img src="images/naran2.png" alt="images" width="250">
-  </li>
-  </div>
+  <ul class="slides">
+    <li><img src="images/naran.png" alt="image" width="250"></li>
+    <li><img src="images/naran1.png" alt="images" width="250"></li>
+    <li><img src="images/naran2.png" alt="images" width="250"></li>
+  </ul>
 </div>
 
   <p>I am Naran Torguud. I was born and grew up in Mongolia. Since I was in a middle school, I have wondered how people discovered those scientific inventions, such as coding. However, I completed a bachelor's degree in Textile Design in my country, I have never forgotten my dream which is learning code. After I graduated, I started to work at Mongolia's leading Cashmere Fashion company called "Gobi Cashmere" for 5 years.
