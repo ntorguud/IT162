@@ -116,6 +116,11 @@
                     <option value="female">Female</option>
                 </select>
 
+                <label>Age</label>
+                <input type="number" name="age">
+
+                <input type="submit" value="Join now !">
+
                 <label>Where did you hear about us?</label>
                 <ul>
                     <li><input type="checkbox" name="where[]" value="friend">A friend or colleague</li>
@@ -203,6 +208,8 @@
                     <option value="female">Female</option>
                 </select>
 
+                <input type="submit" value="Submit">
+
                 <label>How would you like to receive the latest information?</label>
                 <ul>
                     <li><input type="radio" name="info" value="email">Email</li>
@@ -213,8 +220,6 @@
 
                 <label>Comments</label>
                 <textarea name="comments"></textarea>
-
-                <input type="submit" value="Join now !">
             </fieldset>
         </form>
     </main>
