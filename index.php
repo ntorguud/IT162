@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>My ContactForm HTML page</title>
     <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-    <link href="css/forms.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script src="js/jquery.blueberry.js"></script>
 
@@ -15,10 +15,9 @@
     </script>
 </head>
 
-
 <body>
 
-<div id="wrapper"></div>
+<div id="wrapper">
 
 <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
 
@@ -37,7 +36,9 @@
 <div class="blueberry">
   <div class="slides">
   <li>
-   <img src="images/naran.png" alt="image" width="150">
+   <img src="images/naran.png" alt="image" width="250">
+   <img src="images/naran1.png" alt="images" width="250">
+   <img src="images/naran2.png" alt="images" width="250">
   </li>
   </div>
 </div>
