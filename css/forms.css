@@ -1,43 +1,29 @@
+/* styles for my form */
 * {
     padding:0;
     margin:0;
     box-sizing:border-box;
 }
 
-.blueberry { 
-    max-width:1100px; 
-    height:500px;
-    margin:0 20px;
-}
-
-/*.slides {
-    
-}*/
-
-
 body {
-    font-family:serif;
-    font-size:100%;
-   /* background-attachment:fixed;
-    background-size:cover;
-    background-repeat:no-repeat;
-    color:#222; */
+    padding:50px;
+    /* background: beige; */
 }
-   
+
 nav {
     float:left;
     height:70px;
     line-height:70px;
     width:100%;
     margin-bottom:20px;
-    background:#ECE8E7;
+    background:#EEECF5;
     /* display:block; */
 }
 
 nav ul {
     margin:0 auto;
     display:block;
-    max-width:1100px;
+    max-width: 1180px;
 }
 
 nav li {
@@ -57,49 +43,95 @@ nav a {
 }
 
 nav a:hover {
-    color:#444;;
+    color:#444;
     text-align:center;
+    background: #fff;
 }
 
-#wrapper {
-    max-width:1100px;
-    margin:200px auto 0 auto;
-    background:rgba(255, 255, 255, .6);
-    padding:5px;
+nav ul {
+    margin:0 auto;
+    display:block;
+    max-width:1180px;
 }
 
-header {
-    position:fixed;
-    top:0; /* for keeping stable */
-    width:100%;
-    background:rgba(255, 255, 255, .1);
-    z-index:1;
-}
-
-
-main {
+nav li {
     float:left;
-    width:65%;
-    /* background:lightpink; */
-    margin-right:2%;
-    padding-left:10px;
-    overflow:hidden;
-}
-
-/* typograpghy */
-h1 {
-    margin-bottom:10px;
-    /*font-style:italic;*/
+    list-style-type:none;
     color:#000;
-}
-
-
-p {
+    width:16.66%;
+    text-align:center;
     font-size:1.1em;
-    padding: 0.8em;
-    color:#000;
 }
 
+nav a {
+    text-decoration:none;
+    color:#000;
+    display:block;
+    font-size:1.4em;
+}
+
+form {
+    max-width:580px;
+}
+
+label {
+    display:block; /*for becoming vertically */
+    margin-bottom:5px;
+}
+
+fieldset {
+    padding:10px;
+    border:1px dotted #888;
+    border-radius:5px;
+}
+
+legend {
+    font-size:1.4em;
+    color:red;
+    font-style:italic;
+    padding:0 5px;
+}
+
+input {
+    width:100%;
+    height:25px;
+    margin-bottom:10px;
+}
+
+input[type=submit] {
+    width:auto;
+    /* padding:5px; */
+}
+
+input[type=radio], 
+input[type=checkbox] {
+    width:auto;
+    height:auto;
+    margin-right:15px;
+}
+
+select {
+    margin-bottom:10px;
+    padding:3px;
+}
+
+option {
+    
+}
+
+textarea {
+    width:100%;
+    height:60px;
+    margin-bottom:10px;  
+}
+
+form ul {
+    margin-left:15px;
+}
+
+form li {
+    list-style-type:none;
+}
 
 .index #nav li:nth-child(1) a, 
 .big #nav li:nth-child(2) a,
@@ -153,4 +185,41 @@ footer img {
     /* height:400px; */
 }
 
+/* start reCAPTCHA styles */
+		
+		/* writes to small text above reCAPTCHA upon failure */
+		.dateFeedback{
+			font-style:italic;
+			font-size:70%;
+			font-weight:bold;
+			color:#f00;
+		}
+        input:required {
+              border: 1px solid red;
+        }
 
+         input:optional, textarea:optional {
+             background-color:#f1f1f1;
+             border:1px solid #ccc;
+        }
+
+        input[type="submit"], input[type="button"] {
+          background-color: #fff;
+          border-radius: 4px;
+          border: solid 1px #ccc;
+          padding: 0.3em 0.5em;
+        }
+
+        fieldset {
+          border: 1px solid #ccc;
+          max-width: 350px;
+        }
+
+        legend {
+          margin-left: 0.5em;
+          padding: 0.2em 0.5em;
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+        }
+        
+        /* end reCAPTCHA styles */
