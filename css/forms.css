@@ -7,18 +7,31 @@
     box-sizing:border-box;
 }
 
-body {
-    padding:50px;
-    /* background: beige; */
+.blueberry { 
+    width:250px; 
+    height:250px;
+    margin:0 20px;
+    /* float: left; */
 }
 
+.slides {
+    color: white;
+}
+
+
+body {
+    font-family:serif;
+    font-size:100%;
+    padding: 50px;
+}
+   
 nav {
     float:left;
     height:70px;
     line-height:70px;
     width:100%;
     margin-bottom:20px;
-    background:#EEECF5;
+    background: #EEECF5;
     /* display:block; */
 }
 
@@ -50,20 +63,104 @@ nav a:hover {
     background: #fff;
 }
 
-nav ul {
+#wrapper {
+    max-width:1100px;
     margin:0 auto;
-    display:block;
-    max-width:1180px;
+    /* background:beige; */
+    padding:5px;
 }
 
-nav li {
+header {
+    position:fixed;
+    top:0; /* for keeping stable */
+    width:100%;
+    background:rgba(255, 255, 255, .1);
+    z-index:1;
+}
+
+
+main {
+    float:left;
+    width:65%;
+    /* background:lightpink; */
+    margin-right:2%;
+    padding-left:10px;
+    overflow:hidden;
+}
+
+.aside {
+    display: flex;
+    /* direction: row;  */
+    float: right;
+}
+
+/* typograpghy */
+h1 {
+    margin-bottom:10px;
+    margin: auto;
+    /*font-style:italic;*/
+    color:#000;
+}
+
+
+p {
+    font-size:1.1em;
+    padding: 0.8em;
+    color:#000;
+}
+
+.index #nav li:nth-child(1) a, 
+.big #nav li:nth-child(2) a,
+.aia #nav li:nth-child(3) a,
+.flowchart #nav li:nth-child(4) a,
+.finalproject #nav li:nth-child(5) a,
+.contactme #nav li:nth-child(6) a {
+    text-align:center;
+}
+
+footer {
+    clear:both;
+    height:50px;
+    line-height:50px;
+    border-top:1px dotted #666;
+    padding-left:20px;
+    font-size:.9em; 
+}
+
+footer ul {
+    float:right;
+}
+
+footer li {
     float:left;
     list-style-type:none;
-    color:#000;
-    width:16.66%;
-    text-align:center;
-    font-size:1.1em;
+    margin-left:30px;
 }
+
+footer a {
+    color:#222;
+    text-decoration:none;
+}
+
+footer img {
+    height:45px;
+    margin-bottom:4px;
+}
+
+.col-6 {
+    /* background:yellow; */
+    /* height:400px; */
+    float:left;
+    width:16.33%;
+    margin-right:0.4%;
+    display:inline;
+}
+
+.col-6:last-of-type {
+    margin-right:0;
+    /* height:400px; */
+}
+
 
 nav a {
     text-decoration:none;
@@ -133,58 +230,6 @@ form ul {
 
 form li {
     list-style-type:none;
-}
-
-.index #nav li:nth-child(1) a, 
-.big #nav li:nth-child(2) a,
-.aia #nav li:nth-child(3) a,
-.flowchart #nav li:nth-child(4) a,
-.finalproject #nav li:nth-child(5) a,
-.contactme #nav li:nth-child(6) a {
-    text-align:center;
-}
-
-footer {
-    clear:both;
-    height:50px;
-    line-height:50px;
-    border-top:1px dotted #666;
-    padding-left:20px;
-    font-size:.9em; 
-}
-
-footer ul {
-    float:right;
-}
-
-footer li {
-    float:left;
-    list-style-type:none;
-    margin-left:30px;
-}
-
-footer a {
-    color:#222;
-    text-decoration:none;
-}
-
-footer img {
-    height:45px;
-    margin-bottom:4px;
-}
-
-.col-6 {
-    /* background:yellow; */
-    /* height:400px; */
-    float:left;
-    width:16.33%;
-    margin-right:0.4%;
-    display:inline;
-}
-
-.col-6:last-of-type {
-    margin-right:0;
-    /* height:400px; */
 }
 /* end form style */
 
