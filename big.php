@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My ContactForm HTML page</title>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="js/jquery.blueberry.js"></script>
+
+    <script>
+        $(window).load(function() {
+            $('.blueberry').blueberry();
+        });
+    </script>
+</head>
+
+<body>
+    <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
+    <br>
+
+    <nav>
+        <ul>
+            <li><a href="index.php">Welcome</a></li>
+            <li><a href="big.php">Big</a></li>
+            <li><a href="aia.php">AIA</a></li>
+            <li><a href="flowchart.php">Flowchart</a></li>
+            <li><a href="finalproject.php">Final Project</a></li>
+            <li><a href="contactme.php">Contact Naran</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+        <h2>Welcome</h2>
+        <div class="aside">
+            <div class="blueberry">
+                <ul class="slides">
+                    <li><img src="images/naran.png" alt="image" width="250"></li>
+                    <li><img src="images/naran1.png" alt="images" width="250"></li>
+                    <li><img src="images/naran2.png" alt="images" width="250"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li>&copy; <?php echo date('Y'); ?>
+            <li>by <a href="http://central.mystudentswa.com/naranto/web110/">Naran Torguud</a></li>
+            <li>All Rights Reserved</li>
+            <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html5.png" alt="html5"></a></li>
+            <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">Valid CSS</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
