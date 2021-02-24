@@ -85,6 +85,11 @@ main {
     overflow:hidden;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .aside {
     display: flex;
     /* direction: row;  */
