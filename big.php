@@ -23,7 +23,7 @@
         </ul>
     </nav>
 
-    <div id="container">
+    <div class="container">
         <div class="item1">
         </div>   
         <div class="item2">      
