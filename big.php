@@ -3,21 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My ContactForm HTML page</title>
-    <link rel="stylesheet" type="text/css" href="css/blueberry.css">
+    <title>My Big page</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script src="js/jquery.blueberry.js"></script>
-
-    <script>
-        $(window).load(function() {
-            $('.blueberry').blueberry();
-        });
-    </script>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 
 <body>
-    <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
+    <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Big Page</h1>
     <br>
 
     <nav>
@@ -31,16 +23,10 @@
         </ul>
     </nav>
 
-    <div id="wrapper">
-        <h2>Welcome</h2>
-        <div class="aside">
-            <div class="blueberry">
-                <ul class="slides">
-                    <li><img src="images/naran.png" alt="image" width="250"></li>
-                    <li><img src="images/naran1.png" alt="images" width="250"></li>
-                    <li><img src="images/naran2.png" alt="images" width="250"></li>
-                </ul>
-            </div>
+    <div id="container">
+        <div class="item1">
+        </div>   
+        <div class="item2">      
         </div>
     </div>
 
