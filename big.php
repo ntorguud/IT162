@@ -15,7 +15,13 @@
     <nav>
         <ul>
             <li><a href="index.php">Welcome</a></li>
-            <li><a href="big.php">Big</a></li>
+            <li><a href="big.php">Big</a>
+              <ul class="drop-down">
+                <li><a href="responsive vs mobile.php">Research 1</a></li>
+                <li><a href="galleries.php">Research 2</a></li>
+                <li><a href="flexbox.php">Research 3</a></li>
+              </ul>
+            </li>
             <li><a href="aia.php">AIA</a></li>
             <li><a href="flowchart.php">Flowchart</a></li>
             <li><a href="finalproject.php">Final Project</a></li>
