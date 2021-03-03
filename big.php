@@ -40,7 +40,7 @@
             </iframe>   
         </main>
         <aside>
-            <iframe src="https://youtu.be/-ao_Kc_8rpE">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-ao_Kc_8rpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </aside>
     </div>
