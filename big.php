@@ -60,7 +60,7 @@
          *
          */
 
-    include 'includes/contact_include.php'; #site keys & code here
+    //include 'includes/contact_include.php'; #site keys & code here
 
     $toAddress = "jenny.oyuka@gmail.com";  //place your/your client's email address here
     $toName = "Enkhzul Jargalsaikhan"; //place your client's name here
