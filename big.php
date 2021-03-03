@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>My Big page</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="css/forms.css" type="text/css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="robots" content="noindex,nofollow" />
+    
+    <!--[if ltIE9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
 </head>
 
 <body>
