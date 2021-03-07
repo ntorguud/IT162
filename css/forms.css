@@ -1,6 +1,4 @@
-
-        
-/* styles for my form */
+ /* styles for my form */
 * {
     padding:0;
     margin:0;
@@ -233,9 +231,9 @@ select {
     padding:3px;
 }
 
-option {
+/*option {
     
-}
+} */
 
 textarea {
     width:100%;
