@@ -3,7 +3,7 @@
 
  <head>
      <meta charset="utf-8" />
-     <title>Naran Torguud's Big Page</title>
+     <title>Naran Torguud's SCC IT162 Big Page</title>
      <meta name="viewport" content="initial-scale=1">
      <meta name="robots" content="noindex,nofollow" />
      <link rel="stylesheet" type="text/css" href="css/blueberry.css">
