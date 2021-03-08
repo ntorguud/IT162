@@ -93,7 +93,7 @@ body {
         position:absolute;
         top:50px;
         left:0;
-        background:#B3DAF2;
+        background:#fff;
         width:100%;
     }
 
@@ -107,8 +107,8 @@ body {
     }
 
     #primary li:hover .drop-down li a:hover {
-        background:#3E688C;
-        color:#fff;
+        background:#fff;
+        color:#000;
     }
 
 #wrapper {

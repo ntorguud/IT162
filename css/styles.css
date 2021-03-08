@@ -68,6 +68,7 @@ body {
     width:16.66%;
     text-align:center;
     font-size:100%;
+    position: relative; /* added */
 }
 
 #primary a {
@@ -92,13 +93,13 @@ body {
         position:absolute;
         top:50px;
         left:0;
-        background:#B3DAF2;
-        width:100%;
+        background: #fff;
+        width:16.6%;
     }
 
     #primary li:hover .drop-down li {
         float:none;
-        width:100%;
+        width:16.6%;
     }
 
     #primary li:hover .drop-down li a {
@@ -106,8 +107,8 @@ body {
     }
 
     #primary li:hover .drop-down li a:hover {
-        background:#3E688C;
-        color:#fff;
+        background: #fff;
+        color:#000;
     }
 
 #wrapper {
