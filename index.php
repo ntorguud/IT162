@@ -20,7 +20,7 @@
     <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
     <br>
 
-    <nav>
+    <nav id="primary">
         <ul>
             <li><a href="index.php">Welcome</a></li>
             <li><a href="big.php">Big</a></li>

@@ -7,7 +7,7 @@
       <meta name="viewport" content="initial-scale=1">
       <meta name="robots" content="noindex,nofollow" />
       <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-      <link href="css/forms.css" type="text/css" rel="stylesheet">
+      <link href="css/styles.css" type="text/css" rel="stylesheet">
 
       <!--[if ltIE9]>
        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -18,7 +18,7 @@
       <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Research2 "Galleries" Page</h1>
       <br>
 
-      <nav>
+      <nav id="primary">
           <ul>
               <li><a href="index.php">Welcome</a></li>
               <li><a href="big.php">Big</a>
