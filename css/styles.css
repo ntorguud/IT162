@@ -94,12 +94,12 @@ body {
         top:50px;
         left:0;
         background: #fff;
-        width:16.6%;
+        width:100%;
     }
 
     #primary li:hover .drop-down li {
         float:none;
-        width:16.6%;
+        width:100%;
     }
 
     #primary li:hover .drop-down li a {
