@@ -15,6 +15,29 @@
     color: white;
 }
 
+.welcome {
+    background-image: url();
+}
+
+.big {
+    background-image: url();
+}
+
+.aia{
+    background-image: url();
+}
+
+.flowchart {
+    background-image: url();
+}
+
+.finalproject {
+    background-image: url();
+}
+
+.contactme {
+    background-image: url();
+}
 
 body {
     font-family:serif;
@@ -22,7 +45,7 @@ body {
     padding: 50px;
 }
    
-nav {
+#primary {
     float:left;
     height:70px;
     line-height:70px;
@@ -32,13 +55,13 @@ nav {
     /* display:block; */
 }
 
-nav ul {
+#primary ul {
     margin:0 auto;
     display:block;
     max-width: 1180px;
 }
 
-nav li {
+#primary li {
     float:left;
     list-style-type:none;
     color:#000;
@@ -47,14 +70,14 @@ nav li {
     font-size:100%;
 }
 
-nav a {
+#primary a {
     text-decoration:none;
     color:#000;
     display:block;
     font-size:100%;
 }
 
-nav a:hover {
+#primary a:hover {
     color:#444;
     text-align:center;
     background: #fff;
@@ -138,12 +161,12 @@ p {
     color:#000;
 }
 
-.index #nav li:nth-child(1) a, 
-.big #nav li:nth-child(2) a,
-.aia #nav li:nth-child(3) a,
-.flowchart #nav li:nth-child(4) a,
-.finalproject #nav li:nth-child(5) a,
-.contactme #nav li:nth-child(6) a {
+.welcome #primary li:nth-child(1) a, 
+.big #primary li:nth-child(2) a,
+.aia #primary li:nth-child(3) a,
+.flowchart #primary li:nth-child(4) a,
+.finalproject #primary li:nth-child(5) a,
+.contactme #primary li:nth-child(6) a {
     text-align:center;
 }
 
