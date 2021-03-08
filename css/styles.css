@@ -82,7 +82,7 @@ body {
 #primary a:hover {
     color:#444;
     text-align:center;
-    background: #fff;
+    background: #EEECF5;
 }
 
 .drop-down {
@@ -94,7 +94,7 @@ body {
         position:absolute;
         top:50px;
         left:0;
-        background: #fff;
+        background: #EEECF5;
         width:100%;
     }
 
@@ -108,7 +108,7 @@ body {
     }
 
     #primary li:hover .drop-down li a:hover {
-        background: #fff;
+        background: #EEECF5;
         color:#000;
     }
 
