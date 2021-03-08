@@ -54,11 +54,11 @@ body {
     background: #EEECF5;
     display:block;
     overflow: hidden;
+    position: fixed;
 }
 
 #primary ul {
     margin:0 auto;
-    display:block;
     max-width: 1180px;
 }
 
