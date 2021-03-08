@@ -15,7 +15,7 @@
   </head>
 
   <body>
-      <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Research2 Page</h1>
+      <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Research2 "Galleries" Page</h1>
       <br>
 
       <nav>
@@ -41,13 +41,26 @@
               First method is embedding a Lightbox image gallery with source code in JavaScript. Through this method, which was developed by Lokesh Dhaka’s in 2005 (IONOS Digitalguide), the photo gallery will be implemented via HTML.
               Another method is the Image gallery extension for content management systems. This is the pre-built framework for users, even the users who have no IT knowledge. For example, for the open source content management system named WordPress, NextGen, Envira, and Polaroid are the beautiful, and accessible galleries.
           </p>
-
-          <p>Mobile applications, on the other hand, much safer than responsive websites, and can work offline. You always need the internet in order to access responsive webpages. Mobile apps have better performance, and it is consistent with its operating system.</p>
-          <br>
+          <p>
+              <ul>
+                  <li>1. Hexagonal Gallery<img src="images/hexagon.jpeg" alt="image" width="250"></li>
+                  <li>2. Zoomwall.js<img src="images/zoomwalljs.jpeg" alt="image" width="250"></li>
+                  <li>3. Simple Tab Gallery<img src="images/simple_tab.jpeg" alt="image" width="250"></li>
+                  <li>4. Pure JavaScript Fullscreen Gallery with Thumbnail Navigation<img src="images/purejs_thumbnail.jpeg" alt="image" width="250"></li>
+                  <li>5. Minimalist Touch-friendly Gallery in JavaScript<img src="images/minimalist_touch.jpeg" alt="image" width="250"></li>
+                  <li>6. Flow Gallery<img src="images/flow.jpeg" alt="image" width="250"></li>
+                  <li>7. Material Responsive Photo Gallery<img src="images/material_resp.jpeg" alt="image" width="250"></li>
+              </ul>
+          </p>
           <h2>Works Cited:</h2>
-          <p>Babich, Nick. “Deciding Between Responsive Web or Native Apps.” Xd Ideas, 7 Apr 2020, https://xd.Adobe.com/ideas/principles/web-design/responsive-web-or-native-app/, Accessed 6 Feb 2021.
+          <p>“10 Best Carousel Plugins In JQuery/JavaScript/CSS (2021 Update).” JQuery Plugins, www.jqueryscript.net/blog/best-carousel.html.
 
-              Karol, Viktor. “Responsive Website vs Mobile App: Comparison.” ThinkMobiles, Updated 18 Dec 2020, https://thinkmobiles.com/blog/responsive-website-vs-mobile-app/, Accessed 6 Feb 2021.
+              “11 Best Free HTML CSS Image Gallery.” Wpshopmart, 2 Sept. 2020, wpshopmart.com/best-html-css-image-gallery/amp/.
+
+              “15+ Best Responsive &amp; Mobile-Friendly JQuery Slider Plugins.” 365 Web Resources, 1 Jan. 2014,
+              365webresources.com/15-best-responsive-mobile-friendly-jquery-slider-plugins/.
+
+              “Web Design Basics: Creating a Photo Gallery for Your Website.” IONOS Digitalguide, www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website/.
           </p>
       </div>
 
