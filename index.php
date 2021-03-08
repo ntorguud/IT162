@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My ContactForm HTML page</title>
+    <title>My portal page</title>
     <link rel="stylesheet" type="text/css" href="css/blueberry.css">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>

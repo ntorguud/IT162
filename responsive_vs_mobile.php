@@ -48,8 +48,8 @@
           <br>
           <h2>Works Cited:</h2>
           <p>Babich, Nick. “Deciding Between Responsive Web or Native Apps.” Xd Ideas, 7 Apr 2020, https://xd.Adobe.com/ideas/principles/web-design/responsive-web-or-native-app/, Accessed 6 Feb 2021.
-
-             Karol, Viktor. “Responsive Website vs Mobile App: Comparison.” ThinkMobiles, Updated 18 Dec 2020, https://thinkmobiles.com/blog/responsive-website-vs-mobile-app/, Accessed 6 Feb 2021.
+          </p>
+          <p>Karol, Viktor. “Responsive Website vs Mobile App: Comparison.” ThinkMobiles, Updated 18 Dec 2020, https://thinkmobiles.com/blog/responsive-website-vs-mobile-app/, Accessed 6 Feb 2021.
           </p>
       </div>
 

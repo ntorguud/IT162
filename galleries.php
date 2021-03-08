@@ -54,13 +54,13 @@
           </p>
           <h2>Works Cited:</h2>
           <p>“10 Best Carousel Plugins In JQuery/JavaScript/CSS (2021 Update).” JQuery Plugins, www.jqueryscript.net/blog/best-carousel.html.
-
-              “11 Best Free HTML CSS Image Gallery.” Wpshopmart, 2 Sept. 2020, wpshopmart.com/best-html-css-image-gallery/amp/.
-
-              “15+ Best Responsive &amp; Mobile-Friendly JQuery Slider Plugins.” 365 Web Resources, 1 Jan. 2014,
+          </p>
+          <p>“11 Best Free HTML CSS Image Gallery.” Wpshopmart, 2 Sept. 2020, wpshopmart.com/best-html-css-image-gallery/amp/.
+          </p>
+          <p>“15+ Best Responsive &amp; Mobile-Friendly JQuery Slider Plugins.” 365 Web Resources, 1 Jan. 2014,
               365webresources.com/15-best-responsive-mobile-friendly-jquery-slider-plugins/.
-
-              “Web Design Basics: Creating a Photo Gallery for Your Website.” IONOS Digitalguide, www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website/.
+          </p>
+          <p>“Web Design Basics: Creating a Photo Gallery for Your Website.” IONOS Digitalguide, www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website/.
           </p>
       </div>
 
