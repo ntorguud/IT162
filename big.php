@@ -12,7 +12,7 @@
      <!--[if ltIE9]>
        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
      <![endif]-->
- </head>
+</head>
 
  <body>
      <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Big Page</h1>
