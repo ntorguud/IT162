@@ -47,8 +47,8 @@
           <p>The most recent browsers support the new syntax.</p>
           <h2>Works Cited:</h2>
           <p>“CSS Flexbox.” CSS Flexbox (Flexible Box), w3schools.com, www.w3schools.com/css/css3_flexbox.asp. Accessed 11 Feb, 2021.
-
-              “Flexbox: Browser Support.” CSS Mine: Blog and e-Book on CSS3 and Web UI Development, www.cssmine.com/ebook/flexbox-browsers. Accessed 11 Feb, 2021.
+          </p>
+          <p>“Flexbox: Browser Support.” CSS Mine: Blog and e-Book on CSS3 and Web UI Development, www.cssmine.com/ebook/flexbox-browsers. Accessed 11 Feb, 2021.
           </p>
       </div>
 
