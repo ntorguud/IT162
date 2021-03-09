@@ -88,7 +88,7 @@ body {
 
 .drop-down {
         display:none;
-        position: relative;
+        
     }
 
     #primary li:hover .drop-down /* This is our drop-down ul */ {
