@@ -100,7 +100,7 @@ body {
 
     #primary li:hover .drop-down li {
         float:none;
-        /* width:100%; */
+        width:100%;
     }
 
     #primary li:hover .drop-down li a {
