@@ -53,12 +53,12 @@ body {
     margin-bottom:20px;
     background: #EEECF5;
     display:block;
-    overflow: hidden;
     position: fixed;
 }
 
 #primary ul {
     margin:0 auto;
+    display: block;
     max-width: 1180px;
 }
 
@@ -100,7 +100,7 @@ body {
 
     #primary li:hover .drop-down li {
         float:none;
-        width:100%;
+        /* width:100%; */
     }
 
     #primary li:hover .drop-down li a {
