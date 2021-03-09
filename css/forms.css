@@ -94,7 +94,7 @@ body {
     #primary li:hover .drop-down /* This is our drop-down ul */ {
         display:block;
         position:absolute;
-        top:50px;
+        top:70px;
         left:0;
         background:#fff;
         width:100%;
