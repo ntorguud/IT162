@@ -86,9 +86,10 @@ body {
 }
 
 .drop-down {
-        display: inline-block;
+        display: none;
         overflow: hidden;
         position: relative;
+        float: none;
     }
 
     #primary li:hover .drop-down /* This is our drop-down ul */ {
