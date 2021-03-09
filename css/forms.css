@@ -83,7 +83,7 @@ body {
 #primary a:hover {
     color:#444;
     text-align:center;
-    background: #EEECF5;
+    background: #fff;
 }
 
 .drop-down {
@@ -95,7 +95,7 @@ body {
         position:absolute;
         top:50px;
         left:0;
-        background:#EEECF5;
+        background:#fff;
         width:100%;
     }
 
