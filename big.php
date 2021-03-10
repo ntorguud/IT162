@@ -37,19 +37,19 @@
 
       <div id="wrapper">
           <main>
-              <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bnRvcmd1dWRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no">
+              <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bnRvcmd1dWRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border:solid 1px #777" width="45%" height="400" frameborder="0" scrolling="no">
               </iframe>
           </main>
 
-          <main1>
-              <iframe width="600" height="400" src="https://www.youtube.com/embed/-ao_Kc_8rpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          <div class="container">
+              <iframe width="45%" height="400" src="https://www.youtube.com/embed/-ao_Kc_8rpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe>
-          </main1>
+              </div>
 
           <aside>
               <div class="mapouter">
               <div class="gmap_canvas">
-                  <iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=1701%20broadway%20seattle&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                  <iframe width="45%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=1701%20broadway%20seattle&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                   </iframe>
                   <a href="https://putlocker-is.org">putlocker</a>
                   <br>
