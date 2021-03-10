@@ -53,7 +53,7 @@
                           <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
                       </tr>
                   </table>
-
+                  <br>
                   <table>
                       <tr>
                           <th>Audience(s)</th>
