@@ -129,22 +129,14 @@ header {
 }
 
 
-.main {
+.main, .container, .aside, .subcontent {
     float:left;
     width:45%;
     /* background:lightpink; */
     margin-right:2%;
     padding:10px;
     overflow:hidden;
-}
-
-.container {
-    float:right;
-    width:45%;
-    /* background:lightpink; */
-    margin-right:2%;
-    padding:10px;
-    overflow:hidden;
+    border-radius: 10px;
 }
 
 /* .container {
@@ -157,22 +149,6 @@ header {
     direction: row; 
     float: right;
 } */
-
-.aside {
-    float:left;
-    width:45%;
-    /* background:lightpink; */
-    margin-right:2%;
-    padding:10px;
-    overflow:hidden;
-}
-
-.subcontent {
-    float: left;
-    margin-right: 2%;
-    padding: 10px;
-    overflow: hidden;
-}
 
 /* typograpghy */
 h1 {
