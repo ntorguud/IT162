@@ -67,6 +67,20 @@
                           </td>
                           <td>New website</td>
                       </tr>
+                      <tr>
+                          <td><b>Scenario: <b></td>
+                          <td>
+                              <li></li>
+                          </td>
+                          <td>New website</td>
+                      </tr>
+                      <tr>
+                          <td><b>Scenario: <b></td>
+                          <td>
+                              <li></li>
+                          </td>
+                          <td>New website</td>
+                      </tr>
                   </table>
 
               <div class="container">
