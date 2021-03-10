@@ -55,11 +55,9 @@
                   </table>
 
               <div class="container">
-
               </div>
 
               <div class="aside">
-
               </div>
           </div>
 
