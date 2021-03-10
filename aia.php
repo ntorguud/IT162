@@ -40,28 +40,18 @@
                   <h1>Audience, Issues, and Approach (AIA)</h1>
                   <table>
                       <tr>
-                          <td>Client's name and the final decision maker</td>
-                          <td>Client's business (website)</td>
-                          <td>Redesign or brand new website?</td>
-                          <td>Type of website</td>
-                          <td>Client's goal(s)?</td>
+                          <th>Client's name and the final decision maker</th>
+                          <th>Client's business (website)</th>
+                          <th>Redesign or brand new website?</th>
+                          <th>Type of website</th>
+                          <th>Client's goal(s)?</th>
                       </tr>
                       <tr>
-                          <th>Enkhzul Jargalsaikhan</th>
-                          <th>"Michid Dent" Dental Clinic</th>
-                          <th>New website</th>
-                          <th>Marketing, community, informational, and expand online presence.</th>
-                          <th>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</th>
-                      </tr>
-                      <tr>
-                          <td>Captain CSS</td>
-                          <td>Superlayout</td>
-                          <td>Lord Deprecated</td>
-                      </tr>
-                      <tr>
-                          <td>Browser Woman</td>
-                          <td>Megacompatibility</td>
-                          <td>Ugly Code Monster</td>
+                          <td>Enkhzul Jargalsaikhan</td>
+                          <td>"Michid Dent" Dental Clinic</td>
+                          <td>New website</td>
+                          <td>Marketing, community, informational, and expand online presence.</td>
+                          <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
                       </tr>
                   </table>
               </div>
