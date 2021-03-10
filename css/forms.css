@@ -129,20 +129,42 @@ header {
     z-index:1;
 }
 
-
 main {
     float:left;
-    width:65%;
+    width:45%;
     /* background:lightpink; */
     margin-right:2%;
     padding-left:10px;
     overflow:hidden;
 }
 
-.aside {
+.container {
+    float:right;
+    width:45%;
+    /* background:lightpink; */
+    margin-right:2%;
+    padding-left:10px;
+    overflow:hidden;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+} */
+
+/* .aside {
     display: flex;
-    /* direction: row;  */
     float: right;
+    direction: row; 
+} */
+
+.aside {
+    float:left;
+    width:45%;
+    /* background:lightpink; */
+    margin-right:2%;
+    padding-left:10px;
+    overflow:hidden;
 }
 
 /* typograpghy */

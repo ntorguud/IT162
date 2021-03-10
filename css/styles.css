@@ -130,7 +130,7 @@ header {
 
 main {
     float:left;
-    width:65%;
+    width:45%;
     /* background:lightpink; */
     margin-right:2%;
     padding-left:10px;
@@ -138,14 +138,32 @@ main {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    float:right;
+    width:45%;
+    /* background:lightpink; */
+    margin-right:2%;
+    padding-left:10px;
+    overflow:hidden;
 }
 
-.aside {
+/* .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+} */
+
+/* .aside {
     display: flex;
-    /* direction: row;  */
+    direction: row; 
     float: right;
+} */
+
+.aside {
+    float:left;
+    width:45%;
+    /* background:lightpink; */
+    margin-right:2%;
+    padding-left:10px;
+    overflow:hidden;
 }
 
 /* typograpghy */
