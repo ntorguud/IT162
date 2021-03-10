@@ -216,3 +216,7 @@ footer img {
     margin-right:0;
     /* height:400px; */
 }
+
+table, td, th {
+    border: 1px, solid, black;
+}
