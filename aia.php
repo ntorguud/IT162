@@ -36,7 +36,6 @@
           </nav>
 
           <div id="wrapper">
-              <div class="main">
                   <h1>Audience, Issues, and Approach (AIA)</h1>
                   <table>
                       <tr>
@@ -54,7 +53,6 @@
                           <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
                       </tr>
                   </table>
-              </div>
 
               <div class="container">
 
