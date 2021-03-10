@@ -54,6 +54,21 @@
                       </tr>
                   </table>
 
+                  <table>
+                      <tr>
+                          <th>Audience(s)</th>
+                          <th>Issues, Concerns, Needs</th>
+                          <th>Needs</th>
+                      </tr>
+                      <tr>
+                          <td><b>Scenario: <b></td>
+                          <td>
+                              <li></li>
+                          </td>
+                          <td>New website</td>
+                      </tr>
+                  </table>
+
               <div class="container">
               </div>
 
