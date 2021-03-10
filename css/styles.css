@@ -128,7 +128,7 @@ header {
 }
 
 
-main {
+.main {
     float:left;
     width:45%;
     /* background:lightpink; */
@@ -164,6 +164,13 @@ main {
     margin-right:2%;
     padding-left:10px;
     overflow:hidden;
+}
+
+.subcontent {
+    float: left;
+    margin-right: 2%;
+    padding-left: 10px;
+    overflow: hidden;
 }
 
 /* typograpghy */

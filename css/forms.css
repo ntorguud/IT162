@@ -129,7 +129,7 @@ header {
     z-index:1;
 }
 
-main {
+.main {
     float:left;
     width:45%;
     /* background:lightpink; */
@@ -154,8 +154,8 @@ main {
 
 /* .aside {
     display: flex;
-    float: right;
     direction: row; 
+    float: right;
 } */
 
 .aside {
@@ -165,6 +165,13 @@ main {
     margin-right:2%;
     padding-left:10px;
     overflow:hidden;
+}
+
+.subcontent {
+    float: left;
+    margin-right: 2%;
+    padding-left: 10px;
+    overflow: hidden;
 }
 
 /* typograpghy */
