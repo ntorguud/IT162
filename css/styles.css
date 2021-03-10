@@ -58,7 +58,7 @@ body {
 
 #primary ul {
     margin:0 auto;
-    display: block;
+    display:block;
     max-width: 1180px;
 }
 
@@ -69,7 +69,7 @@ body {
     width:16.66%;
     text-align:center;
     font-size:100%;
-    position: relative; /* added */
+    position: relative;
 }
 
 #primary a {
@@ -82,11 +82,12 @@ body {
 #primary a:hover {
     color:#444;
     text-align:center;
-    background: rgb(201, 191, 235);
+    background: #EEECF5;
 }
 
 .drop-down {
-        display: none;
+        display:none;
+        
     }
 
     #primary li:hover .drop-down /* This is our drop-down ul */ {
@@ -94,7 +95,7 @@ body {
         position:absolute;
         top:70px;
         left:0;
-        background: rgb(201, 191, 235);
+        background:#EEECF5;
         width:100%;
     }
 
@@ -108,7 +109,7 @@ body {
     }
 
     #primary li:hover .drop-down li a:hover {
-        background: rgb(201, 191, 235);
+        background:#EEECF5;
         color:#000;
     }
 
