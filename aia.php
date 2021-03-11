@@ -71,26 +71,23 @@
                   </tr>
                   <tr>
                       <td><b>Scenario: </b>The clients for this dental clinic is usually adults, who have dental issues, such as dental cleanings, x-rays, fillings, root canals etc.
-                          Generally the site would be viewed on different browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
+                          Generally the site would be viewed on variety of browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
                       </td>
                       <td>
-                          <li></li>
+                          <li>Quick and easy navigation</li>
+                          <li>Secure sign up and online appointment settings</li>
+                          <li>Dynamic and shareable experience for customers</li>
+                          <li>Quick advices, posts and information</li>
+                          <li>Up to date information</li>
+                          <li>Live chat for customers</li>
                       </td>
-                      <td>New website</td>
-                  </tr>
-                  <tr>
-                      <td><b>Scenario: <b></td>
                       <td>
-                          <li></li>
+                          <li>Responsive design</li>
+                          <li>Simple contact form</li>
+                          <li>Services page that lists the services they offer</li>
+                          <li>Online calendar with availabilty</li>
+                          <li>Seasonal specials and discounts</li>
                       </td>
-                      <td>New website</td>
-                  </tr>
-                  <tr>
-                      <td><b>Scenario: <b></td>
-                      <td>
-                          <li></li>
-                      </td>
-                      <td>New website</td>
                   </tr>
               </table>
 
