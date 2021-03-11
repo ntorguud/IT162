@@ -44,7 +44,7 @@
                   <li>legacy syntax which is "display: box," or "-webkit-display: box;"</li>
               </ul>
           </p>
-          <p>The most recent browsers support the new syntax.</p>
+          <!-- <p>The most recent browsers support the new syntax.</p> -->
           <h2>Works Cited:</h2>
           <p>“CSS Flexbox.” CSS Flexbox (Flexible Box), w3schools.com, www.w3schools.com/css/css3_flexbox.asp. Accessed 11 Feb, 2021.
           </p>
