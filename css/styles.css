@@ -216,7 +216,7 @@ footer img {
     /* height:400px; */
 }
 
-table, td, th {
+table, tr, td, th {
     border: 1px solid black;
     text-align: center;
     padding:5px;
