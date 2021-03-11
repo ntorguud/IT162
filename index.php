@@ -21,21 +21,21 @@
     <br>
 
     <nav id="primary">
-          <ul>
-              <li><a href="index.php">Welcome</a></li>
-              <li><a href="big.php">Big</a>
-                  <ul class="drop-down">
-                      <li><a href="responsive_vs_mobile.php">Research 1</a></li>
-                      <li><a href="galleries.php">Research 2</a></li>
-                      <li><a href="flexbox.php">Research 3</a></li>
-                  </ul>
-              </li>
-              <li><a href="aia.php">AIA</a></li>
-              <li><a href="flowchart.php">Flowchart</a></li>
-              <li><a href="finalproject.php">Final Project</a></li>
-              <li><a href="contactme.php">Contact Naran</a></li>
-          </ul>
-      </nav>
+        <ul>
+            <li><a href="index.php">Welcome</a></li>
+            <li><a href="big.php">Big</a>
+                <ul class="drop-down">
+                    <li><a href="responsive_vs_mobile.php">Research 1</a></li>
+                    <li><a href="galleries.php">Research 2</a></li>
+                    <li><a href="flexbox.php">Research 3</a></li>
+                </ul>
+            </li>
+            <li><a href="aia.php">AIA</a></li>
+            <li><a href="flowchart.php">Flowchart</a></li>
+            <li><a href="finalproject.php">Final Project</a></li>
+            <li><a href="contactme.php">Contact Naran</a></li>
+        </ul>
+    </nav>
 
     <div id="wrapper">
         <h2>Welcome</h2>

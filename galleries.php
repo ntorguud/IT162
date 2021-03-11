@@ -8,6 +8,14 @@
       <meta name="robots" content="noindex,nofollow" />
       <link rel="stylesheet" type="text/css" href="css/blueberry.css">
       <link href="css/styles.css" type="text/css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+      <script src="js/jquery.blueberry.js"></script>
+
+      <script>
+          $(window).load(function() {
+              $('.blueberry').blueberry();
+          });
+      </script>
 
       <!--[if ltIE9]>
        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

@@ -8,6 +8,14 @@
           <meta name="robots" content="noindex,nofollow" />
           <link rel="stylesheet" type="text/css" href="css/blueberry.css">
           <link href="css/styles.css" type="text/css" rel="stylesheet">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+          <script src="js/jquery.blueberry.js"></script>
+
+          <script>
+              $(window).load(function() {
+                  $('.blueberry').blueberry();
+              });
+          </script>
 
           <!--[if ltIE9]>
        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,53 +44,55 @@
           </nav>
 
           <div id="wrapper">
-                  <h1>Audience, Issues, and Approach (AIA)</h1>
-                  <table>
-                      <tr>
-                          <th>Client's name and the final decision maker</th>
-                          <th>Client's business (website)</th>
-                          <th>Redesign or brand new website?</th>
-                          <th>Type of website</th>
-                          <th>Client's goal(s)?</th>
-                      </tr>
-                      <tr>
-                          <td>Enkhzul Jargalsaikhan</td>
-                          <td>"Michid Dent" Dental Clinic</td>
-                          <td>New website</td>
-                          <td>Marketing, community, informational, and expand online presence.</td>
-                          <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
-                      </tr>
-                  </table>
-                  <br>
-                  <br>
-                  <table>
-                      <tr>
-                          <th>Audience(s)</th>
-                          <th>Issues, Concerns, Needs</th>
-                          <th>Needs</th>
-                      </tr>
-                      <tr>
-                          <td><b>Scenario: <b></td>
-                          <td>
-                              <li></li>
-                          </td>
-                          <td>New website</td>
-                      </tr>
-                      <tr>
-                          <td><b>Scenario: <b></td>
-                          <td>
-                              <li></li>
-                          </td>
-                          <td>New website</td>
-                      </tr>
-                      <tr>
-                          <td><b>Scenario: <b></td>
-                          <td>
-                              <li></li>
-                          </td>
-                          <td>New website</td>
-                      </tr>
-                  </table>
+              <h1>Audience, Issues, and Approach (AIA)</h1>
+              <table>
+                  <tr>
+                      <th>Client's name and the final decision maker</th>
+                      <th>Client's business (website)</th>
+                      <th>Redesign or brand new website?</th>
+                      <th>Type of website</th>
+                      <th>Client's goal(s)?</th>
+                  </tr>
+                  <tr>
+                      <td>Enkhzul Jargalsaikhan</td>
+                      <td>"Michid Dent" Dental Clinic</td>
+                      <td>New website</td>
+                      <td>Marketing, community, informational, and expand online presence.</td>
+                      <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
+                  </tr>
+              </table>
+              <br>
+              <br>
+              <table>
+                  <tr>
+                      <th>Audience(s)</th>
+                      <th>Issues, Concerns, Needs</th>
+                      <th>Approach</th>
+                  </tr>
+                  <tr>
+                      <td><b>Scenario: </b>The clients for this dental clinic is usually adults, who have dental issues, such as dental cleanings, x-rays, fillings, root canals etc.
+                          Generally the site would be viewed on different browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
+                      </td>
+                      <td>
+                          <li></li>
+                      </td>
+                      <td>New website</td>
+                  </tr>
+                  <tr>
+                      <td><b>Scenario: <b></td>
+                      <td>
+                          <li></li>
+                      </td>
+                      <td>New website</td>
+                  </tr>
+                  <tr>
+                      <td><b>Scenario: <b></td>
+                      <td>
+                          <li></li>
+                      </td>
+                      <td>New website</td>
+                  </tr>
+              </table>
 
               <div class="container">
               </div>
