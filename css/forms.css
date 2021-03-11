@@ -110,7 +110,7 @@ body {
     }
 
     #primary li:hover .drop-down li a:hover {
-        background:#EEECF5;
+        background:rgb(201, 191, 235);
         color:#000;
     }
 
