@@ -42,9 +42,9 @@
         <div class="aside">
             <div class="blueberry">
                 <ul class="slides">
-                    <li><img src="images/naran.png" alt="image" width="250"></li>
-                    <li><img src="images/naran1.png" alt="images" width="250"></li>
-                    <li><img src="images/naran2.png" alt="images" width="250"></li>
+                    <li><img src="images/naran.png" alt="image" width="400"></li>
+                    <li><img src="images/naran1.png" alt="images" width="400"></li>
+                    <li><img src="images/naran2.png" alt="images" width="400"></li>
                 </ul>
             </div>
         </div>
