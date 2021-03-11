@@ -86,7 +86,7 @@ body {
     background: #EEECF5;
 }
 
-.drop-down {
+#primary .drop-down {
         display:none;
         
     }
