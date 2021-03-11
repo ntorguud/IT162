@@ -46,7 +46,7 @@ body {
 }
    
 #primary {
-    float:left;
+    /* float:left; */
     height:70px;
     line-height:70px;
     width:100%;
