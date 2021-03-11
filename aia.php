@@ -70,8 +70,7 @@
                       <th>Approach</th>
                   </tr>
                   <tr>
-                      <td><b>Scenario: </b>The clients for this dental clinic is usually adults, who have dental issues, such as dental cleanings, x-rays, fillings, root canals etc.
-                          Generally the site would be viewed on variety of browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
+                      <td><b>Scenario: </b>The clients for this dental clinic is usually adults, who have dental issues, such as dental cleanings, x-rays, fillings, root canals etc. Generally the site would be viewed on variety of browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
                       </td>
                       <td>
                           <li>Quick and easy navigation</li>
