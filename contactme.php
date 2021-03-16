@@ -25,7 +25,7 @@
      <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Contact Form Page</h1>
      <br>
 
-     <nav id="primary">
+     <!-- <nav id="primary">
          <ul>
              <li><a href="index.php">Welcome</a></li>
              <li><a href="big.php">Big</a>
@@ -40,7 +40,7 @@
              <li><a href="finalproject.php">Final Project</a></li>
              <li><a href="contactme.php">Contact Naran</a></li>
          </ul>
-     </nav>
+     </nav> -->
 
      <!-- <div id="wrapper">
          <main>
