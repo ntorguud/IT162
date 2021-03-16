@@ -42,10 +42,10 @@
          </ul>
      </nav>
 
-     <div id="wrapper">
+     <!-- <div id="wrapper">
          <main>
              <form action="formhandler.php" method="post">
-                 <!-- method="post" is secure-->
+                 method="post" is secure
                  <fieldset>
                      <legend>Join "Michid Dent" Dental Clinic</legend>
                      <label>First Name</label>
@@ -100,7 +100,7 @@
                          <li><input type="checkbox" name="where[]" value="google">A Recommendation of Family Doctor</li>
                          <li><input type="checkbox" name="where[]" value="blogspot">An Advertisement</li>
                          <li><input type="checkbox" name="where[]" value="article">Internet or Medical Journals</li>
-                     </ul> <!-- [] is for checking several things -->
+                     </ul> [] is for checking several things
 
                      <input type="submit" value="Join now !">
                  </fieldset>
@@ -166,7 +166,7 @@
              </form>
          </main>
 
-     </div>
+     </div> -->
      <header>
          <h3>Contact Us!</h3>
      </header>
