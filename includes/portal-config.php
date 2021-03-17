@@ -21,6 +21,8 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 //die;
 
+$logo_color = ''; //make logo_color an empty string by default
+
 switch(THIS_PAGE){
 
     case 'index.php':
@@ -32,15 +34,21 @@ switch(THIS_PAGE){
     case 'contactme.php':
         $title = "Naran Torguud's IT162 Contact Page";
         $logo = 'fa-pencil-square-o';
+        $logo_color = ' style="color:#0f0"';
         $PageID = 'Contact Naran';
+    break;
+
+    case 'aia.php':
+        $title = "Naran Torguud's Final Project AIA (Client work)";
+        $logo = "fa-universal-access";
+        $logo_color = ' style="color:#00f"';
+        $PageID = 'AIA by Naran';
     break;
 
     default:
         $title = THIS_PAGE;
-        $logo = 'fa-home';
+        $logo = '';//no icon by default  
         $PageID = 'Welcome';
    }
-
-
 ?>
 
