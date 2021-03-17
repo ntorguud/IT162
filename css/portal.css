@@ -1,0 +1,207 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.blueberry { 
+    width:250px; 
+    height:250px;
+    margin:0 20px;
+    /* float: left; */
+}
+
+/* font awesome icon styles */
+i.logo {
+    color: rgba(142, 8, 6, 1); /* a less boring color */
+    text-shadow:1px 1px #ccc; /* gives the icon a little depth */
+    font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
+    margin-left:1%; /* this keeps the icon from being squeeezed to the left */
+}
+
+body {
+    font-family:serif;
+    font-size:100%;
+    padding: 50px;
+}
+   
+.topnav {
+    float:left;
+    height:70px;
+    line-height:70px;
+    width:100%;
+    margin-bottom:20px;
+    background: rgb(201, 191, 235);
+    display:block;
+    position: fixed;
+}
+
+ul.topnav {
+    margin:0 auto;
+    display:block;
+    max-width: 1180px;
+}
+
+ul.topnav li {
+    float:left;
+    list-style-type:none;
+    color:#000;
+    width:16.66%;
+    text-align:center;
+    font-size:100%;
+    position: relative;
+}
+
+ul.topnav a {
+    text-decoration:none;
+    color:#000;
+    display:block;
+    font-size:100%;
+}
+
+ul.topnav a:hover {
+    color:#444;
+    text-align:center;
+    background: #EEECF5;
+}
+
+ul.topnav a.selected {
+    display:none; 
+}
+
+ul.topnav li a.selected/* This is our drop-down ul */ {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left:0;
+    background:#EEECF5;
+    width:100%;
+}
+
+#primary li:hover .drop-down li {
+    float:none;
+    width:100%;
+}
+
+#primary li:hover .drop-down li a {
+    color:#000;
+}
+
+#primary li:hover .drop-down li a:hover {
+    background:rgb(201, 191, 235);
+    color:#000;
+}
+
+#wrapper {
+    max-width:1100px;
+    margin:130px auto 0 auto;
+    /* background:beige; */
+    padding:5px;
+}
+
+header {
+    position:fixed;
+    top:0; /* for keeping stable */
+    width:100%;
+    background:rgba(255, 255, 255, .1);
+    z-index:1;
+}
+
+
+.main, .container, .aside, .subcontent {
+    float:left;
+    width:45%;
+    /* background:lightpink; */
+    margin-right:2%;
+    padding:10px;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+} */
+
+/* .aside {
+    display: flex;
+    direction: row; 
+    float: right;
+} */
+
+/* typograpghy */
+h1 {
+    margin-bottom:10px;
+    margin: auto;
+    /*font-style:italic;*/
+    color:#000;
+}
+
+
+p {
+    font-size:1.1em;
+    padding: 0.8em;
+    color:#000;
+}
+
+.welcome #primary li:nth-child(1) a, 
+.big #primary li:nth-child(2) a,
+.aia #primary li:nth-child(3) a,
+.flowchart #primary li:nth-child(4) a,
+.finalproject #primary li:nth-child(5) a,
+.contactme #primary li:nth-child(6) a {
+    text-align:center;
+}
+
+footer {
+    clear:both;
+    height:50px;
+    line-height:50px;
+    border-top:1px dotted #666;
+    padding-left:20px;
+    font-size:.9em; 
+}
+
+footer ul {
+    float:right;
+}
+
+footer li {
+    float:left;
+    list-style-type:none;
+    margin-left:30px;
+}
+
+footer a {
+    color:#222;
+    text-decoration:none;
+}
+
+footer img {
+    height:45px;
+    margin-bottom:4px;
+}
+
+.col-6 {
+    /* background:yellow; */
+    /* height:400px; */
+    float:left;
+    width:16.33%;
+    margin-right:0.4%;
+    display:inline;
+}
+
+.col-6:last-of-type {
+    margin-right:0;
+    /* height:400px; */
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+}
+
+table {
+    width: 100%;
+}
