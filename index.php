@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>My portal page</title>
     <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="css/portal.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script src="js/jquery.blueberry.js"></script>
 
@@ -27,7 +27,7 @@
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart</a></li>
       <li><a href="fp/index.php">Final Project</a></li>
-      <li><a href="contactme.php">Contact Sara</a></li>
+      <li><a href="contactme.php">Contact Naran</a></li>
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>
