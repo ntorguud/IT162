@@ -39,6 +39,14 @@
     background-image: url();
 }
 
+/* font awesome icon styles */
+i.logo {
+    color: rgba(142, 8, 6, 1); /* a less boring color */
+    text-shadow:1px 1px #ccc; /* gives the icon a little depth */
+    font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
+    margin-left:1%; /* this keeps the icon from being squeeezed to the left */
+}
+
 body {
     font-family:serif;
     font-size:100%;
