@@ -27,7 +27,7 @@
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart</a></li>
       <li><a href="fp/index.php">Final Project</a></li>
-      <li><a href="contactme.php">Contact Sara</a></li>
+      <li><a href="contactme.php">Contact Naran</a></li>
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>
