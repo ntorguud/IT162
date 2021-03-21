@@ -35,7 +35,7 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "Sara's WEB120 Title Page";
+        $title = "Naran Torguud's IT162 Title Page";
         $logo = 'fa-home';
         $PageID = 'Welcome';
     break;

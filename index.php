@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'includes/header.php'?>
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-    <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
+    <!-- <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
     <br>
 
     <nav>
@@ -31,7 +32,7 @@
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>
-
+ -->
 
     <div id="wrapper">
         <h2>Welcome</h2>
@@ -51,17 +52,17 @@
         <p>I decided to change my career in order to fulfill my aspiration, and also wanted know other cultures and life style. Thus, I moved to Seattle, Washington in January 2020. This is my fourth quarter at Seattle Central College. I am planning to complete A.A.S degree of Web Development at Seattle Central College. I love this beautiful Emerald city. In my free time, I like to cook and play volleyball.
         </p>
     </div>
-
-    <footer>
+    <?php include 'includes/footer.php'?>
+    <!-- <footer>
         <ul>
-            <li>&copy; <?php echo date('Y'); ?>
+            <li>&copy; 
             <li>by <a href="http://hackergirl.xyz/index.php">Naran Torguud</a></li>
             <li>All Rights Reserved</li>
             <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html5.png" alt="html5"></a></li>
             <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">Valid CSS</a></li>
         </ul>
 
-    </footer>
+    </footer> -->
 </body>
 
 </html>

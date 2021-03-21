@@ -1,92 +1,87 @@
-       <!DOCTYPE html>
-      <html>
+        <!DOCTYPE html>
+       <html>
 
-      <head>
-          <meta charset="utf-8" />
-          <title>Naran Torguud's SCC IT162 Big Page</title>
-          <meta name="viewport" content="initial-scale=1">
-          <meta name="robots" content="noindex,nofollow" />
-          <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-          <link href="css/styles.css" type="text/css" rel="stylesheet">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-          <script src="js/jquery.blueberry.js"></script>
+       <head>
+           <meta charset="utf-8" />
+           <title>Naran Torguud's SCC IT162 Big Page</title>
+           <meta name="viewport" content="initial-scale=1">
+           <meta name="robots" content="noindex,nofollow" />
+           <link rel="stylesheet" type="text/css" href="css/blueberry.css">
+           <link href="css/big.css" type="text/css" rel="stylesheet">
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+           <script src="js/jquery.blueberry.js"></script>
 
-          <script>
-              $(window).load(function() {
-                  $('.blueberry').blueberry();
-              });
-          </script>
+           <script>
+               $(window).load(function() {
+                   $('.blueberry').blueberry();
+               });
+           </script>
 
-          <!--[if ltIE9]>
+           <!--[if ltIE9]>
        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
      <![endif]-->
-      </head>
+       </head>
 
-      <body>
-          <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Big Page</h1>
-          <br>
+       <body>
+           <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Big Page</h1>
+           <br>
 
-          <nav id="primary">
-              <ul>
-                  <li><a href="index.php">Welcome</a></li>
-                  <li><a href="big.php">Big</a>
-                      <ul class="drop-down">
-                          <li><a href="responsive_vs_mobile.php">Research 1</a></li>
-                          <li><a href="galleries.php">Research 2</a></li>
-                          <li><a href="flexbox.php">Research 3</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="aia.php">AIA</a></li>
-                  <li><a href="flowchart.php">Flowchart</a></li>
-                  <li><a href="finalproject.php">Final Project</a></li>
-                  <li><a href="contactme.php">Contact Naran</a></li>
-              </ul>
-          </nav>
+           <nav>
+               <ul class="topnav" id="myTopnav">
+                   <li><a href="index.php">Welcome</a></li>
+                   <li><a href="big/index.php" class="selected">Big</a></li>
+                   <li><a href="aia.php">AIA</a></li>
+                   <li><a href="flowchart.php">Flowchart</a></li>
+                   <li><a href="fp/index.php">Final Project</a></li>
+                   <li><a href="contactme.php">Contact Naran</a></li>
+                   <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+               </ul>
+           </nav>
 
-          <div id="wrapper">
-              <div class="main">
-                  <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bnRvcmd1dWRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border:solid 1px #777" width="100%" height="400" frameborder="0" scrolling="no">
-                  </iframe>
-              </div>
+           <div id="wrapper">
+               <div class="main">
+                   <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bnRvcmd1dWRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043" style="border:solid 1px #777" width="100%" height="400" frameborder="0" scrolling="no">
+                   </iframe>
+               </div>
 
-              <div class="container">
-                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/-ao_Kc_8rpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                  </iframe>
-              </div>
+               <div class="container">
+                   <iframe width="100%" height="400" src="https://www.youtube.com/embed/-ao_Kc_8rpE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                   </iframe>
+               </div>
 
-              <div class="aside">
-                  <div class="mapouter">
-                      <div class="gmap_canvas">
-                          <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=1701%20broadway%20seattle&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                          </iframe>
-                          <a href="https://putlocker-is.org">putlocker</a>
-                          <br>
-                          <style>
-                              .mapouter {
-                                  position: relative;
-                                  text-align: right;
-                                  height: 400px;
-                                  width: 100%;
-                              }
-                          </style>
-                          <a href="https://www.embedgooglemap.net">google maps for my website</a>
-                          <style>
-                              .gmap_canvas {
-                                  overflow: hidden;
-                                  background: none !important;
-                                  height: 400px;
-                                  width: 100%;
-                              }
-                          </style>
-                      </div>
-                  </div>
-              </div>
-          </div>
+               <div class="aside">
+                   <div class="mapouter">
+                       <div class="gmap_canvas">
+                           <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=1701%20broadway%20seattle&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                           </iframe>
+                           <a href="https://putlocker-is.org">putlocker</a>
+                           <br>
+                           <style>
+                               .mapouter {
+                                   position: relative;
+                                   text-align: right;
+                                   height: 400px;
+                                   width: 100%;
+                               }
+                           </style>
+                           <a href="https://www.embedgooglemap.net">google maps for my website</a>
+                           <style>
+                               .gmap_canvas {
+                                   overflow: hidden;
+                                   background: none !important;
+                                   height: 400px;
+                                   width: 100%;
+                               }
+                           </style>
+                       </div>
+                   </div>
+               </div>
+           </div>
 
-          <header>
-              <h3>Contact Us!</h3>
-          </header>
-          <!-- <p>Inside the source of this file, you can un-comment and test
+           <header>
+               <!-- <h3>Contact Us!</h3> -->
+           </header>
+           <!-- <p>Inside the source of this file, you can un-comment and test
         2 different types of forms:
         <div class="indent">
             <ul>
@@ -95,8 +90,8 @@
             </ul>
         </div>
     </p> -->
-          <div class="subcontent">
-              <?php
+           <div class="subcontent">
+               <?php
                 /*
          * Below are 2 different forms to be re-used       
          * 
@@ -114,15 +109,15 @@
                 echo loadContact('multiple.php');#demonstrates multiple form elements
 
                 ?>
-          </div>
-          <footer>
-              <small>&copy; 2013-<?= date('Y') ?>, All Rights Reserved ~
-                  <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
-                  <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
-                  <a href="index.php" target="_blank">by Naran Torguud</a>
-              </small>
-          </footer>
-          <!-- END Footer -->
-      </body>
+           </div>
+           <footer>
+               <small>&copy; 2013-<?= date('Y') ?>, All Rights Reserved ~
+                   <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
+                   <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+                   <a href="index.php" target="_blank">by Naran Torguud</a>
+               </small>
+           </footer>
+           <!-- END Footer -->
+       </body>
 
-      </html>
+       </html>
