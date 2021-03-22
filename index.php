@@ -1,12 +1,12 @@
-<?php include 'portal-config.php'?>
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'includes/header.php' ?>
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
 
 <head>
     <meta charset="UTF-8">
     <title>My portal page</title>
     <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href="css/portal.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script src="js/jquery.blueberry.js"></script>
 
@@ -18,25 +18,21 @@
 </head>
 
 <body>
-    <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
+    <!-- <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
     <br>
 
-    <nav id="primary">
-        <ul>
-            <li><a href="index.php">Welcome</a></li>
-            <li><a href="big.php">Big</a>
-                <ul class="drop-down">
-                    <li><a href="responsive_vs_mobile.php">Research 1</a></li>
-                    <li><a href="galleries.php">Research 2</a></li>
-                    <li><a href="flexbox.php">Research 3</a></li>
-                </ul>
-            </li>
-            <li><a href="aia.php">AIA</a></li>
-            <li><a href="flowchart.php">Flowchart</a></li>
-            <li><a href="finalproject.php">Final Project</a></li>
-            <li><a href="contactme.php">Contact Naran</a></li>
-        </ul>
-    </nav>
+    <nav>
+    <ul class="topnav" id="myTopnav">
+      <li><a href="index.php" class="selected">Welcome</a></li>
+      <li><a href="big/index.php">Big</a></li>
+      <li><a href="aia.php">AIA</a></li>
+      <li><a href="flowchart.php">Flowchart</a></li>
+      <li><a href="fp/index.php">Final Project</a></li>
+      <li><a href="contactme.php">Contact Naran</a></li>
+      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+    </ul>
+  </nav>
+ -->
 
     <div id="wrapper">
         <h2>Welcome</h2>
@@ -57,16 +53,15 @@
         </p>
     </div>
 
-    <footer>
+    <!-- <footer>
         <ul>
-            <li>&copy; <?php echo date('Y'); ?>
+            <li>&copy; 
             <li>by <a href="http://hackergirl.xyz/index.php">Naran Torguud</a></li>
             <li>All Rights Reserved</li>
             <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html5.png" alt="html5"></a></li>
             <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">Valid CSS</a></li>
         </ul>
 
-    </footer>
+    </footer> -->
 </body>
-
-</html>
+<?php include 'includes/footer.php' ?>
