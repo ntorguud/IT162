@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'?>
+<?php include './includes/header.php'?>
 
 <div id="wrapper">
     <section>
@@ -13,4 +13,4 @@
     <p>Provide at least 3 (linked) resources that help you and/or your web team with steps found in very basic website design and development cycle. For example, client surveys, wireframing tools, etc.</p>
     <p>Here's a website to help get you started, <a href="https://business.tutsplus.com/articles/how-to-extract-the-facts-with-a-web-design-client-questionnaire--fsw-1830" target="top">https://business.tutsplus.com/articles/...</a>
     </p>
-<?php include 'includes/footer.php'?>
+<?php include './includes/footer.php'?>
