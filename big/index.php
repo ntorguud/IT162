@@ -19,7 +19,7 @@
 
 <body>
 
-    <nav id="cssmenu">
+    <div id="cssmenu">
         <ul>
             <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> IT162</span></a></li>
             <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> BIG</span></a></li>
@@ -35,7 +35,7 @@
             <li><a href="responsive_vs_mobile.php"><span><i class="fa fa-fw fa-html5"></i> Responsive vs Mobile App</span></a></li>
             <li><a href="webcam.php"><span><i class="fa fa-fw fa-eye"></i> Web Cam</span></a></li>
         </ul>
-    </nav>
+    </div>
 
     <div id="wrapper">
         <section>
