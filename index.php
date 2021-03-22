@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'?>
+<?php include 'includes/header.php' ?>
 <!-- <!DOCTYPE html>
 <html lang="en"> -->
 
@@ -52,7 +52,7 @@
         <p>I decided to change my career in order to fulfill my aspiration, and also wanted know other cultures and life style. Thus, I moved to Seattle, Washington in January 2020. This is my fourth quarter at Seattle Central College. I am planning to complete A.A.S degree of Web Development at Seattle Central College. I love this beautiful Emerald city. In my free time, I like to cook and play volleyball.
         </p>
     </div>
-    <?php include 'includes/footer.php'?>
+
     <!-- <footer>
         <ul>
             <li>&copy; 
@@ -64,5 +64,4 @@
 
     </footer> -->
 </body>
-
-</html>
+<?php include 'includes/footer.php' ?>
