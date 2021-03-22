@@ -181,7 +181,7 @@ body {
 }
    
 header {
-    position:fixed;
+    position: fixed;
     top:0; /* for keeping stable */
     width:100%;
     background:rgba(255, 255, 255, .1);
@@ -191,27 +191,25 @@ header {
 #wrapper {
     max-width:1100px;
     margin: 0 auto;
-    /* background:beige; */
+    overflow: auto;
     padding:5px;
 }
 
 section {
     float: left;
-    width: 60%;
-    padding:10px;
-    overflow: hidden;
+    width: 50%;
+    overflow: auto;
     position: fixed;
-    display: inline;
+    display: block;
     background: pink;
 }
 
 aside {
     float: right;
     width: 30%;
-    padding:10px;
     overflow: hidden;
-    /* position: relative; */
-    display: inline;
+    position: fixed;
+    display: block;
     background: blue;
 }
 
@@ -255,3 +253,17 @@ footer img {
     height:45px;
     margin-bottom:4px;
 }
+
+/* #embed-container.phone {
+    display: none;
+}
+
+@media all and (max-width:700px) {
+    #wrapper {
+        background: blue;
+    }
+
+    #embed-container.desktop {
+        display: none;
+    }
+} */
