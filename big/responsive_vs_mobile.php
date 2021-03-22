@@ -1,20 +1,21 @@
-  <?php include 'it162/includes/header.php' ?>
+<?php include 'it162/includes/header.php' ?>
 
-  <!-- <!doctype html> -->
-  <html lang='en'>
+<!doctype html>
+<html lang='en'>
+<head>
+    <title>Naran Torguud's IT162 Big Page</title>
+    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/big.css"/>
+    <link rel="stylesheet" href="css/forms.css"/>
 
-  <head>
-      <meta charset='utf-8'>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Naran Torguud's IT162 Big Page</title>
-
-      <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-      <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
-      <script src="big.script.js"></script>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="big.css">
-  </head>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+    <script src="js/big.script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+</head>
 
   <body>
 
