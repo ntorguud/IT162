@@ -56,7 +56,7 @@ switch(THIS_PAGE){
 
     case 'flowchart.php':
         $title = "Naran's Flowchart Page'";
-        $logo = "fa-table";
+        $logo = "fa-pencil-square-o";
         $logo_color = ' style="color:#00f"';
         $PageID = 'Flowchart';
     break;
