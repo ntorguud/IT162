@@ -1,47 +1,7 @@
-      <!DOCTYPE html>
-      <html>
-
-      <head>
-          <meta charset="utf-8" />
-          <title>Naran Torguud's SCC IT162 AIA Page</title>
-          <meta name="viewport" content="initial-scale=1">
-          <meta name="robots" content="noindex,nofollow" />
-          <link rel="stylesheet" type="text/css" href="css/blueberry.css">
-          <link href="css/styles.css" type="text/css" rel="stylesheet">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-          <script src="js/jquery.blueberry.js"></script>
-
-          <script>
-              $(window).load(function() {
-                  $('.blueberry').blueberry();
-              });
-          </script>
-
-          <!--[if ltIE9]>
-       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-     <![endif]-->
-      </head>
+      <?php include 'includes/header.php' ?>
+      <link href="css/styles.css" type="text/css" rel="stylesheet">
 
       <body>
-          <h1><img class="left" src="images/home.png" alt="logo" width="35">AIA by Naran</h1>
-          <br>
-
-          <nav id="primary">
-              <ul>
-                  <li><a href="index.php">Welcome</a></li>
-                  <li><a href="big.php">Big</a>
-                      <ul class="drop-down">
-                          <li><a href="responsive_vs_mobile.php">Research 1</a></li>
-                          <li><a href="galleries.php">Research 2</a></li>
-                          <li><a href="flexbox.php">Research 3</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="aia.php">AIA</a></li>
-                  <li><a href="flowchart.php">Flowchart</a></li>
-                  <li><a href="finalproject.php">Final Project</a></li>
-                  <li><a href="contactme.php">Contact Naran</a></li>
-              </ul>
-          </nav>
 
           <div id="wrapper">
               <h1>Audience, Issues, and Approach (AIA)</h1>

@@ -1,10 +1,5 @@
 <?php include 'includes/header.php' ?>
-<!-- <!DOCTYPE html>
-<html lang="en"> -->
 
-<head>
-    <meta charset="UTF-8">
-    <title>My portal page</title>
     <link rel="stylesheet" type="text/css" href="css/blueberry.css">
     <link href="css/portal.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
