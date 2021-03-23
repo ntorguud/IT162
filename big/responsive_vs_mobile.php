@@ -1,4 +1,4 @@
-<?php include 'includes/header.php' ?>
+<?php include 'includes/big-header.php' ?>
 
 <div id="wrapper">
     <section>
@@ -17,4 +17,4 @@
         <p>Karol, Viktor. “Responsive Website vs Mobile App: Comparison.” ThinkMobiles, Updated 18 Dec 2020, https://thinkmobiles.com/blog/responsive-website-vs-mobile-app/, Accessed 6 Feb 2021.
         </p>
     </aside>
-<?php include 'includes/footer.php' ?>
+<?php include 'includes/big-footer.php' ?>

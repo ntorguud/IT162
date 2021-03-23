@@ -1,4 +1,4 @@
-  <?php include 'includes/header.php' ?>
+  <?php include 'includes/big-header.php' ?>
 
 
   <div id="wrapper">
@@ -31,4 +31,4 @@
           <p>“Web Design Basics: Creating a Photo Gallery for Your Website.” IONOS Digitalguide, www.ionos.com/digitalguide/websites/web-design/how-to-create-a-photo-gallery-for-your-website/.
           </p>
       </aside>
-  <?php include 'includes/footer.php' ?>
+  <?php include 'includes/big-footer.php' ?>

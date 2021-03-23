@@ -1,4 +1,4 @@
-  <?php include 'includes/header.php'?>
+  <?php include 'includes/big-header.php' ?>
 
   <div id="wrapper">
       <section>
@@ -19,4 +19,4 @@
           <p>“Flexbox: Browser Support.” CSS Mine: Blog and e-Book on CSS3 and Web UI Development, www.cssmine.com/ebook/flexbox-browsers. Accessed 11 Feb, 2021.
           </p>
       </aside>
-  <?php include '/includes/footer.php'?>
+  <?php include 'includes/big-footer.php' ?>
