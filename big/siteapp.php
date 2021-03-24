@@ -2,7 +2,7 @@
 
 <body>
     <div id="wrapper">
-        <div>
+        <div class="section">
             <h2><?= $title ?></h2>
             <p>In modern days, it's a customer's choice whether to use a responsive website or mobile application due to their advantages over other one. While mobile (native) apps are most likely targeted to the regular customers due to their safety, responsive webpages are targeted to new, and occasional customers because of their fast and easy accessibility.
             </p>
@@ -11,7 +11,7 @@
             <p>Mobile applications, on the other hand, much safer than responsive websites, and can work offline. You always need the internet in order to access responsive webpages. Mobile apps have better performance, and it is consistent with its operating system.</p>
         </div>
 
-        <div>
+        <div class="aside">
             <h3>Works Cited:</h3>
             <p>Babich, Nick. “Deciding Between Responsive Web or Native Apps.” Xd Ideas, 7 Apr 2020, https://xd.Adobe.com/ideas/principles/web-design/responsive-web-or-native-app/, Accessed 6 Feb 2021.
             </p>

@@ -3,12 +3,12 @@
 <body>
     <div id="wrapper">
 
-        <div>
+        <div class="section">
             <h2><?= $PageID ?></h2>
             <p>Iframe a responsive YouTube video.</p>
         </div>
 
-        <div>
+        <div class="aside">
             <h3>Video Info</h3>
             <p>Explain what the video is about.</p>
 
