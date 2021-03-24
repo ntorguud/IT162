@@ -9,11 +9,11 @@
         </div>
 
         <div class="aside">
-            <h3>Basic Website Design Cycle</h3>
+            <h3>Here are 3 great examples of code learning resources.</h3>
 
-            <p>Provide at least 3 (linked) resources that help you and/or your web team with steps found in very basic website design and development cycle. For example, client surveys, wireframing tools, etc.</p>
-            <p>Here's a website to help get you started, <a href="https://business.tutsplus.com/articles/how-to-extract-the-facts-with-a-web-design-client-questionnaire--fsw-1830" target="top">https://business.tutsplus.com/articles/...</a>
-            </p>
+            <p><a href="https://www.w3.org/">~ The World Wide Web Consortium (W3C)</p>
+            <p><a href="https://www.codecademy.com/">~ The Code Academy. Learn to code</p>
+            <p><a href="https://education.github.com/pack">~ Github Student Developer Pack - Github Education</p>
         </div>
     </div>
 
