@@ -191,23 +191,17 @@ header {
 #wrapper {
     max-width:1100px;
     margin:0 auto;
-    /* background:beige; */
-    padding:5px;
+    padding: 5px;
+    background:beige;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
-section {
-    float: left;
-    width: 60%;
-    overflow: hidden;
-    position: fixed;
-    /* background: pink; */
-}
-
-aside {
-    float: right;
-    width: 30%;
-    overflow: hidden;
-    /* background: blue; */
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .gallery {
