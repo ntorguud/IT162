@@ -1,4 +1,5 @@
 <?php
+
 /**
  * multiple.php is a postback application designed to provide a 
  * contact form for users to email our clients.  
@@ -20,60 +21,117 @@
 
 <!-- START HTML FORM -->
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
-<div>
-    <label>
-        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
-    </label>
-</div>
-<div>	
-    <label>
-        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
-    </label>
-</div>
-<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
-<div>	
-    <label>
-        How Did You Hear About Us?:<br />
-        <select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
-            <option value="">Choose How You Heard</option>
-            <option value="Phone">Phone</option>
-            <option value="Web">Web</option>
-            <option value="Magazine">Magazine</option>
-            <option value="A Friend">A Friend</option>
-            <option value="Other">Other</option>
-        </select>
-    </label>
-</div>
+    <div id="wrapper">
+        <main>
+            <form action="formhandler.php" method="post">
+                <!-- method="post" is secure-->
+                <fieldset>
+                    <legend>Join "Michid Dent" Dental Clinic</legend>
+                    <label>First Name</label>
+                    <input type="text" name="name">
 
-<div>	
-    <fieldset>
-        <legend>What Services Are You Interested In?</legend>
-        <input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-        <input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-        <input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
-        <input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
-        <input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
-    </fieldset>
-</div>
+                    <label>Last Name</label>
+                    <input type="text" name="name">
 
-    <div>	
-    <fieldset>
-        <legend>Would you like to join our mailing list?</legend>
-        <input type="radio" name="Join_Mailing_List?" value="Yes" 
-        required="required" title="Mailing list is required" tabindex="50"  
-        /> Yes <br />
-        <input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
-    </fieldset>
-</div>
-<div>	
-    <label>
-        Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="60"></textarea>
-    </label>
-</div>	
-<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
-<div>
-    <input type="submit" value="submit" />
-</div>
+                    <label>Enter your birthday:
+                        <input type="date" name="bday"></label>
+
+                    <label>Gender /optional/</label>
+                    <select name="gender">
+                        <option value="gender">Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+
+                    <label>Age</label>
+                    <input type="number" name="age">
+
+                    <label>Email</label>
+                    <input type="email" name="email">
+
+                    <label>Phone Number</label>
+                    <input type="number" name="number">
+
+                    <label>Home Address/optional/</label>
+                    <input type="text" name="text">
+
+                    <label>District</label>
+                    <select name="district">
+                        <option value="district">Choose your district</option>
+                        <option value="baganuur">Baganuur</option>
+                        <option value="bagakhangai">Bagakhangai</option>
+                        <option value="bayangol">Bayangol</option>
+                        <option value="bayanzurkh">Bayanzurkh</option>
+                        <option value="chingeltei">Chingeltei</option>
+                        <option value="khanuul">Khan-Uul</option>
+                        <option value="nalaikh">Nalaikh</option>
+                        <option value="songinokhairkhan">Songinokhairkhan</option>
+                        <option value="sukhbaatar">Sukhbaatar</option>
+                        <option value="none">None of above</option>
+                    </select>
+
+                    <label>City</label>
+                    <input type="text" name="text">
+
+                    <label>Where did you hear about us?</label>
+                    <ul>
+                        <li><input type="checkbox" name="where[]" value="friend">A friend or colleague</li>
+                        <li><input type="checkbox" name="where[]" value="google">A Recommendation of Family Doctor</li>
+                        <li><input type="checkbox" name="where[]" value="blogspot">An Advertisement</li>
+                        <li><input type="checkbox" name="where[]" value="article">Internet or Medical Journals</li>
+                    </ul> <!-- [] is for checking several things -->
+
+                    <input type="submit" value="Join now !">
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Make an Appointment</legend>
+                    <label>What service are you looking for?</label>
+                    <ul>
+                        <li><input type="checkbox" name="what[]" value="exams">Complete Exams</li>
+                        <li><input type="checkbox" name="what[]" value="xray">X-Ray</li>
+                        <li><input type="checkbox" name="what[]" value="cleanings">Dental Cleanings</li>
+                        <li><input type="checkbox" name="what[]" value="fillings">Fillings</li>
+                        <li><input type="checkbox" name="what[]" value="rootcanals">Root Canals</li>
+                        <li><input type="checkbox" name="what[]" value="extractions">Extractions</li>
+                        <li><input type="checkbox" name="what[]" value="implants">Implants</li>
+                        <li><input type="checkbox" name="what[]" value="crowns">Other</li>
+                    </ul>
+                    <br>
+
+                    <label>What are your Dental Issues?</label>
+                    <textarea name="comments"></textarea>
+                    <br>
+
+                    <label>Do you have a Health Insurance?</label>
+                    <select name="insurance">
+                        <option value="insurance"></option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <label>Doctor's Name</label>
+                    <input type="text" name="drname">
+
+                    <label>Date:
+                        <input type="date" name="appday"></label>
+
+                    <label>Time:
+                        <input type="time" name="apptime"></label>
+                    <br>
+
+                    <label>How would you like to receive an important information and notifications?</label>
+                    <ul>
+                        <li><input type="radio" name="info" value="email">Email</li>
+                        <li><input type="radio" name="info" value="text">Text Message</li>
+                        <li><input type="radio" name="info" value="mailbox">Mailbox</li>
+                        <li><input type="radio" name="info" value="no info">No Notification</li>
+                    </ul>
+    </div>
+    <div class="g-recaptcha" data-sitekey="<?= $siteKey; ?>"></div>
+    <div>
+        <input type="submit" value="submit" />
+    </div>
 </form>
 <!-- END HTML FORM -->
-
