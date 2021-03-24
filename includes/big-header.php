@@ -20,8 +20,8 @@
 
 <div id="cssmenu">
   <ul>
-     <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> IT162</span></a></li>
-     <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> BIG</span></a></li>
+     <li><a href="../index.php"><span><i class="fa fa-fw fa-home"></i> IT162</span></a></li>
+     <li><a href="index.php"><span><i class="fa fa-fw fa-bank"></i> BIG</span></a></li>
      <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
      <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
      <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>

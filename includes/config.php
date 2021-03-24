@@ -31,7 +31,7 @@ switch(THIS_PAGE){
 
     case 'index.php':
         $title = "Naran Torguud's IT162 Big Page";
-        $logo = 'fa-home';
+        $logo = 'fa-bank';
         $PageID = 'Big Page ';
     break;
     
