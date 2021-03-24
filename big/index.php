@@ -1,6 +1,5 @@
 <?php include '../includes/big-header.php' ?>
 
-<body>
     <div id="wrapper">
         <div class="section">
             <h2><?= $PageID ?></h2>
