@@ -256,11 +256,12 @@ footer img {
     margin-bottom:4px;
 }
 
-/* #embed-container.phone {
-    display: none;
-}
+/* .month-view embed-container, 
+.agenda-view embed-container {
+    width: 90%;
+} */
 
-@media all and (max-width:700px) {
+/* @media all and (max-width:700px) {
     #wrapper {
         background: blue;
     }
