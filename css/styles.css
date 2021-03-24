@@ -237,6 +237,7 @@ table, tr, td, th {
     border: 1px solid black;
     text-align: center;
     padding:5px;
+    background: rgb(215, 219, 216);
 }
 
 table {
