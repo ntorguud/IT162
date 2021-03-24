@@ -188,6 +188,13 @@ header {
     z-index:1;
 }
 
+#wrapper {
+    max-width:1100px;
+    margin:0 auto;
+    /* background:beige; */
+    padding:5px;
+}
+
 section {
     float: left;
     width: 60%;
