@@ -1,7 +1,7 @@
 <?php
 
 //place URL & labels in the array here for navigation:
-$nav1['index.php'] = "Welcome";
+$nav1['index.php'] = "Portal Page";
 $nav1['big/index.php'] = "Big";
 $nav1['aia.php'] = "AIA";
 $nav1['flowchart.php'] = "Flowchart";
@@ -35,29 +35,50 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "Naran Torguud's IT162 Title Page";
+        $title = "Naran's IT162 Title Page";
         $logo = 'fa-home';
-        $PageID = 'Welcome';
+        $PageID = 'Portal Page';
     break;
     
     case 'contactme.php':
-        $title = "Naran Torguud's IT162 Contact Page";
-        $logo = 'fa-pencil-square-o';
+        $title = "Naran's Contact Page";
+        $logo = 'fa-phone';
         $logo_color = ' style="color:#0f0"';
         $PageID = 'Contact Naran';
     break;
 
     case 'aia.php':
-        $title = "Naran Torguud's Final Project AIA (Client work)";
+        $title = "Naran's Final Project AIA (Client work)";
+        $logo = "fa-table";
+        $logo_color = ' style="color:#00f"';
+        $PageID = 'AIA';
+    break;
+
+    case 'flowchart.php':
+        $title = "Naran's Flowchart Page'";
+        $logo = "fa-pencil-square-o";
+        $logo_color = ' style="color:#00f"';
+        $PageID = 'Flowchart';
+    break;
+
+    case 'big/index.php':
+        $title = "Naran's Big Page'";
+        $logo = "fa-bank";
+        $logo_color = ' style="color:#00f"';
+        $PageID = 'Big Page';
+    break;
+
+    case 'fp/index.php':
+        $title = "Naran's Final Project Portal Page";
         $logo = "fa-universal-access";
         $logo_color = ' style="color:#00f"';
-        $PageID = 'AIA by Naran';
+        $PageID = 'Final Project Portal Page';
     break;
 
     default:
         $title = THIS_PAGE;
         $logo = '';//no icon by default  
-        $PageID = 'Welcome';
+        $PageID = '';
    }
    
    /*

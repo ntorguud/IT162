@@ -1,6 +1,7 @@
-<?php include 'includes/big-header.php' ?>
+<?php include '../includes/big-header.php' ?>
 
-<div id="wrapper">
+<body>
+
     <section>
         <h2><?= $PageID ?></h2>
         <p>Iframe a responsive YouTube video.</p>
@@ -10,8 +11,8 @@
         <h3>Video Info</h3>
     </aside>
     <p>Explain what the video is about.</p>
-    <?php include 'includes/big-footer.php' ?>
-</div>
+
 </body>
 
 </html>
+<?php include '../includes/big-footer.php' ?>
