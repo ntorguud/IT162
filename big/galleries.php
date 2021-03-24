@@ -12,32 +12,38 @@
 
               <div class="box">
                   <div>
-                      <img class="gallery" src="images/hexagon.jpeg" alt="image">
                       <p>1. Hexagon Gallery</p>
+                      <img class="gallery" src="images/hexagon.jpeg" alt="image">  
                   </div>
+                  <br>
                   <div>
-                      <img class="gallery" src="images/zoomwalljs.jpeg" alt="image">
                       <p>2. Zoomwall.js</p>
+                      <img class="gallery" src="images/zoomwalljs.jpeg" alt="image">
                   </div>
+                  <br>
                   <div>
-                      <img class="gallery" src="images/simple_tab.jpeg" alt="image">
                       <p>3. Simple Tab Gallery</p>
+                      <img class="gallery" src="images/simple_tab.jpeg" alt="image">
                   </div>
+                  <br>
                   <div>
-                      <img class="gallery" src="images/purejs_thumbnail.jpeg" alt="image">
                       <p>4. Pure JavaScript Fullscreen Gallery with Thumbnail Navigation</p>
+                      <img class="gallery" src="images/purejs_thumbnail.jpeg" alt="image">
                   </div>
+                  <br>
                   <div>
-                      <img class="gallery" src="images/minimalist_touch.jpeg" alt="image">
                       <p>5. Minimalist Touch-friendly Gallery in JavaScript</p>
+                      <img class="gallery" src="images/minimalist_touch.jpeg" alt="image">
                   </div>
+                  <br>
                   <div>
-                      <img class="gallery" src="images/flow.jpeg" alt="image">
                       <p>6. Flow Gallery</p>
+                      <img class="gallery" src="images/flow.jpeg" alt="image">
                   </div>
+                  <br>
                   <div>
-                      <img class="gallery" src="images/material_resp.jpeg" alt="image">
                       <p>7. Material Responsive Photo Gallery</p>
+                      <img class="gallery" src="images/material_resp.jpeg" alt="image">
                   </div>
               </div> <!-- ends class of box-->
           </div> <!-- ends left column -->
