@@ -39,28 +39,21 @@ switch(THIS_PAGE){
         $title = "MichidDent Dental Clinic About Page";
         $logo = 'fa-cube';
         $logo_color = ' style="color:#0f0"';
-        $PageID = 'Flexbox';
+        $PageID = 'Meet our team';
     break;
 
     case 'galleries.php':
-        $title = "Big/Galleries Research Page";
+        $title = "Galleries";
         $logo = "fa-camera-retro";
         $logo_color = ' style="color:#00f"';
         $PageID = 'Galleries';
     break;
 
-    case 'siteapp.php':
-        $title = "Big/Responsive vs Mobile App Research Page";
-        $logo = "fa-html5";
-        $logo_color = ' style="color:#00f"';
-        $PageID = 'Responsive vs Mobile App';
-    break;
-
     case 'webcam.php':
-        $title = "Big/Web Cam Page";
+        $title = "Web Cam Page";
         $logo = "fa-eye";
         $logo_color = ' style="color:#00f"';
-        $PageID = 'Web Camera';
+        $PageID = 'Web surveillance ';
     break;
 
     case 'calendar.php':
