@@ -37,7 +37,7 @@ switch(THIS_PAGE){
     case 'index.php':
         $title = "Naran's IT162 Title Page";
         $logo = 'fa-home';
-        $PageID = 'Portal Page';
+        $PageID = 'SCC IT162 Portal Page';
     break;
     
     case 'contactme.php':
@@ -50,7 +50,7 @@ switch(THIS_PAGE){
     case 'aia.php':
         $title = "Naran's Final Project AIA (Client work)";
         $logo = "fa-table";
-        $logo_color = ' style="color:#00f"';
+        $logo_color = ' style="color:rgb(215, 219, 216)"';
         $PageID = 'AIA';
     break;
 

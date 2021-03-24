@@ -30,13 +30,13 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "Naran Torguud's IT162 Big Page";
-        $logo = 'fa-bank';
-        $PageID = 'Big Page ';
+        $title = "MichidDent Dental Clinic Home Page";
+        $logo = 'fa-teeth';
+        $PageID = 'Welcome to "Michid Dent"';
     break;
     
-    case 'flexbox.php':
-        $title = "Big/Flexbox ResearchPage";
+    case 'about.php':
+        $title = "MichidDent Dental Clinic About Page";
         $logo = 'fa-cube';
         $logo_color = ' style="color:#0f0"';
         $PageID = 'Flexbox';
