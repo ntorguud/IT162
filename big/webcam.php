@@ -8,8 +8,10 @@
         </div>
 
         <div class="aside">
-            <h3>DOT Camera</h3>
-            <p>Left column will be a live Department of transportation video that comes from a different web page.</p>
+            <h3>Name of DOT Camera</h3>
+            <div class="dot">
+                Iframe in a refreshing web page.
+            </div>
         </div>
     </div>
 </body>
