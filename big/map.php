@@ -2,14 +2,14 @@
 
 <body>
     <div id="wrapper">
-        <section>
+        <div>
             <h2><?= $PageID ?></h2>
             <p>Iframe a responsive Google Map to the campus.</p>
-        </section>
+        </div>
 
-        <aside>
+        <div>
             <h3>Contact info</h3>
-        </aside>
+        </div>
         <p>Add address</p>
     </div>
 

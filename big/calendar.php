@@ -1,18 +1,19 @@
-<div id="wrapper"><?php include '../includes/big-header.php' ?>
+<?php include '../includes/big-header.php' ?>
 
-    <body>
+<body>
+    <div id="wrapper">
 
-        <section>
+        <div>
             <h2><?= $PageID ?></h2>
             <p>Iframe a responsive Google Calendar and it should have one event on the claendar that is clickable with a description.</p>
-        </section>
+        </div>
 
-        <aside>
+        <div>
             <h3>Event info</h3>
             <p>Add event text here.</p>
-        </aside>
+        </div>
 
-</div>
+    </div>
 </body>
 
 </html>
