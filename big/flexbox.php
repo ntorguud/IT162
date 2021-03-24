@@ -5,9 +5,9 @@
           <h2><?= $PageID ?></h2>
           <p>According to the W3C, there are three types of Flexbox syntax in modern browsers. Those are:
               <ul>
-                  <li>new syntax which is "display: flex;"</li>
-                  <li>tweener syntax from 2012 which is "display: flexbox;"</li>
-                  <li>legacy syntax which is "display: box," or "-webkit-display: box;"</li>
+                  <li>~ new syntax which is "display: flex;"</li>
+                  <li>~ tweener syntax from 2012 which is "display: flexbox;"</li>
+                  <li>~ legacy syntax which is "display: box," or "-webkit-display: box;"</li>
               </ul>
           </p>
       </section>
