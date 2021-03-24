@@ -1,16 +1,16 @@
-<?php include '../includes/big-header.php' ?>
+<div id="wrapper"><?php include '../includes/big-header.php' ?>
 
-<body>
-    <section>
-        <h2><?= $PageID ?></h2>
-        <p>Iframe 2 different kinds of web cams on to this page. Left column will be a live youtube video </p>
-    </section>
+    <body>
+        <section>
+            <h2><?= $PageID ?></h2>
+            <p>Iframe 2 different kinds of web cams on to this page. Left column will be a live youtube video </p>
+        </section>
 
-    <aside>
-        <h3>DOT Camera</h3>
-    </aside>
-    <p>Left column will be a live Department of transportation video that comes from a different web page.</p>
-
+        <aside>
+            <h3>DOT Camera</h3>
+            <p>Left column will be a live Department of transportation video that comes from a different web page.</p>
+        </aside>
+</div>
 </body>
 
 </html>
