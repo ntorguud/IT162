@@ -15,7 +15,7 @@
                   </tr>
                   <tr>
                       <td>Enkhzul Jargalsaikhan</td>
-                      <td>"Michid Dent" Dental Clinic</td>
+                      <td>"Buren Dent" Dental Clinic</td>
                       <td>New website</td>
                       <td>Marketing, community, informational, and expand online presence.</td>
                       <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
@@ -30,7 +30,48 @@
                       <th>Approach</th>
                   </tr>
                   <tr>
-                      <td><b>Scenario: </b>The clients for this dental clinic is usually adults, who have dental issues, such as dental cleanings, x-rays, fillings, root canals etc. Generally the site would be viewed on variety of browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
+                      <td><b>Adults: </b>The clients for this dental clinic is usually adults, who have dental issues, such as dental cleanings, x-rays, fillings, root canals etc. Generally the site would be viewed on variety of browsers with 17 inch screen, in 1024 resolution and higher, but it is also responsive for Android mobile devices, and tablets.
+                      </td>
+                      <td>
+                          <li>Quick and easy navigation</li>
+                          <li>Secure sign up and online appointment settings</li>
+                          <li>Dynamic and shareable experience for customers</li>
+                          <li>Quick advices, posts and information</li>
+                          <li>Up to date information</li>
+                          <li>Live chat for customers</li>
+                      </td>
+                      <td>
+                          <li>Responsive design</li>
+                          <li>Simple contact form</li>
+                          <li>Services page that lists the services they offer</li>
+                          <li>Online calendar with availabilty</li>
+                          <li>Seasonal specials and discounts</li>
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td><b>Kids (Parents): </b>The website should be easy to access, contact, make an appointment. It contains map, Google Live Calendar, which are great opportunities to schedule meeting for busy parents. 
+                      Once you joined and have got service from our website, your next meets will be much easy process.
+                      </td>
+                      <td>
+                          <li>Quick and easy navigation</li>
+                          <li>Secure sign up and online appointment settings</li>
+                          <li>Dynamic and shareable experience for customers</li>
+                          <li>Quick advices, posts and information</li>
+                          <li>Up to date information</li>
+                          <li>Live chat for customers</li>
+                      </td>
+                      <td>
+                          <li>Responsive design</li>
+                          <li>Simple contact form</li>
+                          <li>Services page that lists the services they offer</li>
+                          <li>Online calendar with availabilty</li>
+                          <li>Seasonal specials and discounts</li>
+                      </td>
+                  </tr>
+
+                  <tr>
+                      <td><b>Businesses: </b>The businesses, organizations which ever want to be our partner are welcome. 
                       </td>
                       <td>
                           <li>Quick and easy navigation</li>
