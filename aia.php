@@ -15,7 +15,7 @@
                   </tr>
                   <tr>
                       <td>Enkhzul Jargalsaikhan</td>
-                      <td>"Buren Dent" Dental Clinic</td>
+                      <td>"Enerel Dent" Dental Clinic</td>
                       <td>New website</td>
                       <td>Marketing, community, informational, and expand online presence.</td>
                       <td>Introducing her dental clinic services, making appointments online, and contacting with customers through chatbot.</td>
