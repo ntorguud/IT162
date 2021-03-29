@@ -18,3 +18,4 @@
      <li><a href="http://enereldent.live/index.php"><span><i class="fa fa-fw fa-universal-access"></i> Final Project</span></a></li>
      <li><a href="contactme.php"><span><i class="fa fa-fw fa-phone"></i> Contact Naran</span></a></li>
   </ul>
+</div>
