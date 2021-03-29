@@ -15,6 +15,6 @@
      <li><a href="big/index.php"><span><i class="fa fa-fw fa-bank"></i> BIG</span></a></li>
      <li><a href="aia.php"><span><i class="fa fa-fw fa-table"></i> AIA</span></a></li>
      <li><a href="flowchart.php"><span><i class="fa fa-fw fa-pencil-square-o"></i> Flowchart</span></a></li>
-     <li><a href="https://github.com/ntorguud/it162-final-project/index.php"><span><i class="fa fa-fw fa-universal-access"></i> Final Project</span></a></li>
+     <li><a href="http://enereldent.live/index.php"><span><i class="fa fa-fw fa-universal-access"></i> Final Project</span></a></li>
      <li><a href="contactme.php"><span><i class="fa fa-fw fa-phone"></i> Contact Naran</span></a></li>
   </ul>
