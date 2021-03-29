@@ -26,7 +26,7 @@
             <form action="formhandler.php" method="post">
                 <!-- method="post" is secure-->
                 <fieldset>
-                    <legend>Join "Michid Dent" Dental Clinic</legend>
+                    <legend>Join "Enerel Dent" Dental Clinic</legend>
                     <label>First Name</label>
                     <input type="text" name="name">
 
