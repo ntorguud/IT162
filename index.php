@@ -10,7 +10,6 @@
             $('.blueberry').blueberry();
         });
     </script>
-</head>
 
 <body>
     <!-- <h1><img class="left" src="images/home.png" alt="logo" width="35">Naran Torguud's SCC IT162 Portal</h1>
