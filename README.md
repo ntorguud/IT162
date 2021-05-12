@@ -40,3 +40,7 @@ https://zoom.us/j/627976680
 <body>
 </body>
 </html>
+
+border-bottom: 1px solid #9f593f;
+letter-spacing: .05em;
+text-shadow: 2px 2px 1px #9f593f;
